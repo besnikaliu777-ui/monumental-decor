@@ -124,6 +124,31 @@ export const products: Product[] = [
     images: ['/images/vase.png'],
   },
   {
+    slug: 'vase-anges-baroque',
+    category: 'vases',
+    names: {
+      fr: 'Vase baroque aux anges',
+      de: 'Barockvase mit Engeln',
+      it: 'Vaso barocco con angeli',
+      en: 'Baroque Angel Vase',
+    },
+    descriptions: {
+      fr: 'Vase decoratif en resine avec anges, roses et ornements baroques.',
+      de: 'Dekorative Harzvase mit Engeln, Rosen und barocken Ornamenten.',
+      it: 'Vaso decorativo in resina con angeli, rose e ornamenti barocchi.',
+      en: 'Decorative resin vase with angels, roses and baroque ornaments.',
+    },
+    dimensions: 'A definir',
+    weight: 'A definir',
+    materials: 'Resine brute a peindre',
+    price: 299,
+    images: [
+      '/images/vase-anges-1.jpg',
+      '/images/vase-anges-2.jpg',
+      '/images/vase-anges-3.jpg',
+    ],
+  },
+  {
     slug: 'pot-geometric',
     category: 'pots',
     names: {
@@ -185,6 +210,30 @@ export const products: Product[] = [
     materials: 'Résine blanche polie',
     price: 1800,
     images: ['/images/classical.png'],
+  },
+  {
+    slug: 'dame-amphore',
+    category: 'classical',
+    names: {
+      fr: "Dame a l'amphore",
+      de: 'Dame mit Amphore',
+      it: 'Dama con anfora',
+      en: 'Lady with Amphora',
+    },
+    descriptions: {
+      fr: "Statue decorative de dame avec amphore, finition vert antique.",
+      de: 'Dekorative Damenstatue mit Amphore in antikgruner Optik.',
+      it: 'Statua decorativa di dama con anfora, finitura verde anticato.',
+      en: 'Decorative lady statue with amphora and antique green finish.',
+    },
+    dimensions: 'A definir',
+    weight: 'A definir',
+    materials: 'Resine finition vert antique',
+    price: 499,
+    images: [
+      '/images/dame-amphore-1.jpg',
+      '/images/dame-amphore-2.jpg',
+    ],
   },
 ];
 
