@@ -77,7 +77,7 @@ export default async function ContactPage({ params }: Props) {
           </div>
           <div>
             <h2 className="text-xl font-semibold text-yellow-500">Adresse</h2>
-            <p className="text-gray-300">Zürich, Suisse</p>
+            <p className="text-gray-300">Vuarrens, 1418</p>
           </div>
           <div className="h-64 w-full">
             <iframe

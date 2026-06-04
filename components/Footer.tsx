@@ -53,7 +53,7 @@ export default async function Footer({ locale }: Props) {
           <h4 className="text-yellow-500 font-semibold mb-3">{dict.contact.title}</h4>
           <p className="text-sm mb-2">078 776 32 92</p>
           <p className="text-sm mb-2">info@monumental-decor.ch</p>
-          <p className="text-sm mb-4">Zürich, Suisse</p>
+          <p className="text-sm mb-4">Vuarrens, 1418</p>
           {/* Newsletter form */}
           <form className="flex flex-col space-y-2">
             <input
