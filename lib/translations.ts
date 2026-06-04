@@ -77,9 +77,9 @@ export const translations: Record<Locale, Dictionary> = {
       checkout: 'Paiement',
     },
     hero: {
-      title: 'Des créations artisanales qui transforment vos espaces',
-      subtitle: 'Statues, sculptures et décorations en résine haut de gamme',
-      buyNow: 'Acheter maintenant',
+      title: "Des créations artisanales qui subliment les espaces d'exception",
+      subtitle: 'Fabrication artisanale depuis plus de 15 ans',
+      buyNow: 'Découvrir la collection',
       quote: 'Demander un devis',
     },
     categories: {
