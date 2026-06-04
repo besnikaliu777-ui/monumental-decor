@@ -10,14 +10,9 @@ interface Props {
 // images for category thumbnails. In a real project you could choose
 // representative thumbnails per category.
 const categoryImages: Record<keyof ReturnType<typeof getDictionary>['categories'], string> = {
-  lions: '/images/lion.png',
-  gorillas: '/images/gorilla.png',
-  eagles: '/images/eagle.png',
-  horses: '/images/horse.png',
-  vases: '/images/vase.png',
-  pots: '/images/pot.png',
-  modern: '/images/modern.png',
-  classical: '/images/classical.png',
+  animal: '/images/lion.png',
+  vaseResine: '/images/vase-anges-1.jpg',
+  vaseBeton: '/images/dame-amphore-1.jpg',
 };
 
 export default async function CategoryGrid({ locale }: Props) {

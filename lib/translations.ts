@@ -1,7 +1,7 @@
-// Translations dictionary for all supported languages.
+﻿// Translations dictionary for all supported languages.
 // Each entry contains the strings used across the site. For SEO reasons the
 // translations are explicit and can be edited easily. To add a new language
-// simply create a new top‑level key (e.g. 'es') with the same structure.
+// simply create a new topâ€‘level key (e.g. 'es') with the same structure.
 
 export type Locale = 'fr' | 'de' | 'it' | 'en';
 
@@ -23,14 +23,9 @@ export interface Dictionary {
     quote: string;
   };
   categories: {
-    lions: string;
-    gorillas: string;
-    eagles: string;
-    horses: string;
-    vases: string;
-    pots: string;
-    modern: string;
-    classical: string;
+    animal: string;
+    vaseResine: string;
+    vaseBeton: string;
   };
   common: {
     addToCart: string;
@@ -77,34 +72,29 @@ export const translations: Record<Locale, Dictionary> = {
       home: 'Accueil',
       about: 'Notre histoire',
       shop: 'Boutique',
-      realizations: 'Réalisations',
+      realizations: 'RÃ©alisations',
       contact: 'Contact',
       cart: 'Panier',
       wishlist: 'Favoris',
       checkout: 'Paiement',
     },
     hero: {
-      title: 'Des créations artisanales qui transforment vos espaces',
-      subtitle: 'Statues, sculptures et décorations en résine haut de gamme',
+      title: 'Des crÃ©ations artisanales qui transforment vos espaces',
+      subtitle: 'Statues, sculptures et dÃ©corations en rÃ©sine haut de gamme',
       buyNow: 'Acheter maintenant',
       quote: 'Demander un devis',
     },
     categories: {
-      lions: 'Lions',
-      gorillas: 'Gorilles',
-      eagles: 'Aigles',
-      horses: 'Chevaux',
-      vases: 'Vases',
-      pots: 'Pots décoratifs',
-      modern: 'Statues modernes',
-      classical: 'Statues classiques',
+      animal: 'Animal',
+      vaseResine: 'Vase resine',
+      vaseBeton: 'Vase beton',
     },
     common: {
       addToCart: 'Ajouter au panier',
       addToWishlist: 'Ajouter aux favoris',
       dimensions: 'Dimensions',
       weight: 'Poids',
-      materials: 'Matériaux',
+      materials: 'MatÃ©riaux',
       similarProducts: 'Produits similaires',
       price: 'Prix',
       description: 'Description',
@@ -114,31 +104,31 @@ export const translations: Record<Locale, Dictionary> = {
       total: 'Total',
       remove: 'Supprimer',
       emptyCart: 'Votre panier est vide',
-      emptyWishlist: 'Aucun favori enregistré',
+      emptyWishlist: 'Aucun favori enregistrÃ©',
       ourStory: 'Notre histoire',
       shopNow: 'Voir la boutique',
       seeMore: 'En savoir plus',
     },
     contact: {
-      title: 'Contactez‑nous',
-      description: "Pour toute question ou demande de devis, n'hésitez pas à nous contacter.",
+      title: 'Contactezâ€‘nous',
+      description: "Pour toute question ou demande de devis, n'hÃ©sitez pas Ã  nous contacter.",
       name: 'Nom',
       email: 'Email',
-      phone: 'Téléphone',
+      phone: 'TÃ©lÃ©phone',
       message: 'Message',
       submit: 'Envoyer',
     },
     about: {
       title: 'Notre histoire',
       paragraphs: [
-        "Monumental Decor est une entreprise artisanale spécialisée dans la création de statues et objets décoratifs en résine. Chaque pièce est fabriquée à la main avec une attention méticuleuse aux détails.",
-        "Nos artisans utilisent des résines de haute qualité et travaillent chaque sculpture comme une œuvre d’art unique, inspirée par l’architecture moderne et la tradition classique.",
-        "Nous nous adressons aux propriétaires exigeants, hôtels, restaurants, architectes et particuliers recherchant des pièces singulières pour sublimer leurs espaces.",
+        "MonumentalÂ Decor est une entreprise artisanale spÃ©cialisÃ©e dans la crÃ©ation de statues et objets dÃ©coratifs en rÃ©sine. Chaque piÃ¨ce est fabriquÃ©e Ã  la main avec une attention mÃ©ticuleuse aux dÃ©tails.",
+        "Nos artisans utilisent des rÃ©sines de haute qualitÃ© et travaillent chaque sculpture comme une Å“uvre dâ€™art unique, inspirÃ©e par lâ€™architecture moderne et la tradition classique.",
+        "Nous nous adressons aux propriÃ©taires exigeants, hÃ´tels, restaurants, architectes et particuliers recherchant des piÃ¨ces singuliÃ¨res pour sublimer leurs espaces.",
       ],
     },
     realizations: {
-      title: 'Réalisations',
-      subtitle: 'Découvrez nos projets et transformations avant/après',
+      title: 'RÃ©alisations',
+      subtitle: 'DÃ©couvrez nos projets et transformations avant/aprÃ¨s',
     },
   },
   de: {
@@ -153,32 +143,27 @@ export const translations: Record<Locale, Dictionary> = {
       checkout: 'Kasse',
     },
     hero: {
-      title: 'Handgefertigte Kreationen, die Ihre Räume verwandeln',
+      title: 'Handgefertigte Kreationen, die Ihre RÃ¤ume verwandeln',
       subtitle: 'Hochwertige Statuen, Skulpturen und Dekorationen aus Harz',
       buyNow: 'Jetzt kaufen',
       quote: 'Angebot anfordern',
     },
     categories: {
-      lions: 'Löwen',
-      gorillas: 'Gorillas',
-      eagles: 'Adler',
-      horses: 'Pferde',
-      vases: 'Vasen',
-      pots: 'Dekorative Töpfe',
-      modern: 'Moderne Statuen',
-      classical: 'Klassische Statuen',
+      animal: 'Tier',
+      vaseResine: 'Harzvase',
+      vaseBeton: 'Betonvase',
     },
     common: {
       addToCart: 'In den Warenkorb',
-      addToWishlist: 'Zu Favoriten hinzufügen',
-      dimensions: 'Maße',
+      addToWishlist: 'Zu Favoriten hinzufÃ¼gen',
+      dimensions: 'MaÃŸe',
       weight: 'Gewicht',
       materials: 'Materialien',
-      similarProducts: 'Ähnliche Produkte',
+      similarProducts: 'Ã„hnliche Produkte',
       price: 'Preis',
       description: 'Beschreibung',
       requestQuote: 'Angebot anfordern',
-      back: 'Zurück',
+      back: 'ZurÃ¼ck',
       proceedToCheckout: 'Zur Kasse',
       total: 'Gesamt',
       remove: 'Entfernen',
@@ -190,7 +175,7 @@ export const translations: Record<Locale, Dictionary> = {
     },
     contact: {
       title: 'Kontaktieren Sie uns',
-      description: 'Für Fragen oder ein Angebot stehen wir Ihnen gerne zur Verfügung.',
+      description: 'FÃ¼r Fragen oder ein Angebot stehen wir Ihnen gerne zur VerfÃ¼gung.',
       name: 'Name',
       email: 'Email',
       phone: 'Telefon',
@@ -200,9 +185,9 @@ export const translations: Record<Locale, Dictionary> = {
     about: {
       title: 'Unsere Geschichte',
       paragraphs: [
-        'Monumental Decor ist ein Handwerksbetrieb, der sich auf die Herstellung von Statuen und dekorativen Objekten aus hochwertigem Harz spezialisiert hat. Jede Figur wird von Hand mit viel Liebe zum Detail gefertigt.',
+        'MonumentalÂ Decor ist ein Handwerksbetrieb, der sich auf die Herstellung von Statuen und dekorativen Objekten aus hochwertigem Harz spezialisiert hat. Jede Figur wird von Hand mit viel Liebe zum Detail gefertigt.',
         'Unsere Kunsthandwerker verwenden hochwertige Harze und behandeln jede Skulptur als einzigartiges Kunstwerk, inspiriert von moderner Architektur und klassischer Tradition.',
-        'Wir sprechen anspruchsvolle Villenbesitzer, Hotels, Restaurants, Architekten und Privatkunden an, die einzigartige Stücke zur Verschönerung ihrer Räume suchen.',
+        'Wir sprechen anspruchsvolle Villenbesitzer, Hotels, Restaurants, Architekten und Privatkunden an, die einzigartige StÃ¼cke zur VerschÃ¶nerung ihrer RÃ¤ume suchen.',
       ],
     },
     realizations: {
@@ -223,19 +208,14 @@ export const translations: Record<Locale, Dictionary> = {
     },
     hero: {
       title: 'Creazioni artigianali che trasformano i tuoi spazi',
-      subtitle: 'Statue, sculture e decorazioni in resina di alta qualità',
+      subtitle: 'Statue, sculture e decorazioni in resina di alta qualitÃ ',
       buyNow: 'Acquista ora',
       quote: 'Richiedi un preventivo',
     },
     categories: {
-      lions: 'Leoni',
-      gorillas: 'Gorilla',
-      eagles: 'Aquile',
-      horses: 'Cavalli',
-      vases: 'Vasi',
-      pots: 'Vasi decorativi',
-      modern: 'Statue moderne',
-      classical: 'Statue classiche',
+      animal: 'Animale',
+      vaseResine: 'Vaso in resina',
+      vaseBeton: 'Vaso in cemento',
     },
     common: {
       addToCart: 'Aggiungi al carrello',
@@ -251,11 +231,11 @@ export const translations: Record<Locale, Dictionary> = {
       proceedToCheckout: 'Procedi al pagamento',
       total: 'Totale',
       remove: 'Rimuovi',
-      emptyCart: 'Il tuo carrello è vuoto',
+      emptyCart: 'Il tuo carrello Ã¨ vuoto',
       emptyWishlist: 'Nessun preferito',
       ourStory: 'La nostra storia',
       shopNow: 'Vai al negozio',
-      seeMore: 'Scopri di più',
+      seeMore: 'Scopri di piÃ¹',
     },
     contact: {
       title: 'Contattaci',
@@ -269,8 +249,8 @@ export const translations: Record<Locale, Dictionary> = {
     about: {
       title: 'La nostra storia',
       paragraphs: [
-        "Monumental Decor è un'azienda artigianale specializzata nella creazione di statue e oggetti decorativi in resina di alta qualità. Ogni pezzo è realizzato a mano con meticolosa attenzione ai dettagli.",
-        'I nostri artigiani utilizzano resine pregiate e trattano ogni scultura come un’opera d’arte unica, ispirata all’architettura moderna e alla tradizione classica.',
+        "MonumentalÂ Decor Ã¨ un'azienda artigianale specializzata nella creazione di statue e oggetti decorativi in resina di alta qualitÃ . Ogni pezzo Ã¨ realizzato a mano con meticolosa attenzione ai dettagli.",
+        'I nostri artigiani utilizzano resine pregiate e trattano ogni scultura come unâ€™opera dâ€™arte unica, ispirata allâ€™architettura moderna e alla tradizione classica.',
         'Ci rivolgiamo a proprietari esigenti di ville, hotel, ristoranti, architetti e privati che cercano pezzi unici per valorizzare i loro spazi.',
       ],
     },
@@ -292,19 +272,14 @@ export const translations: Record<Locale, Dictionary> = {
     },
     hero: {
       title: 'Handcrafted creations that transform your spaces',
-      subtitle: 'High‑end resin statues, sculptures and décor',
+      subtitle: 'Highâ€‘end resin statues, sculptures and dÃ©cor',
       buyNow: 'Buy now',
       quote: 'Request a quote',
     },
     categories: {
-      lions: 'Lions',
-      gorillas: 'Gorillas',
-      eagles: 'Eagles',
-      horses: 'Horses',
-      vases: 'Vases',
-      pots: 'Decorative pots',
-      modern: 'Modern statues',
-      classical: 'Classical statues',
+      animal: 'Animal',
+      vaseResine: 'Resin vase',
+      vaseBeton: 'Concrete vase',
     },
     common: {
       addToCart: 'Add to cart',
@@ -338,8 +313,8 @@ export const translations: Record<Locale, Dictionary> = {
     about: {
       title: 'Our story',
       paragraphs: [
-        'Monumental Decor is an artisanal company specialising in the creation of statues and decorative resin objects. Each piece is hand‑crafted with meticulous attention to detail.',
-        'Our artisans use high‑quality resins and treat each sculpture as a unique work of art, inspired by modern architecture and classical tradition.',
+        'MonumentalÂ Decor is an artisanal company specialising in the creation of statues and decorative resin objects. Each piece is handâ€‘crafted with meticulous attention to detail.',
+        'Our artisans use highâ€‘quality resins and treat each sculpture as a unique work of art, inspired by modern architecture and classical tradition.',
         'We cater to discerning villa owners, hotels, restaurants, architects and individuals seeking unique pieces to enhance their spaces.',
       ],
     },
