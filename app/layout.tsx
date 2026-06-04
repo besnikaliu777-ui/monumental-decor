@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import WhatsAppButton from '../components/WhatsAppButton';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -50,7 +51,10 @@ export default function RootLayout({
       <head>
         <script dangerouslySetInnerHTML={{ __html: extensionErrorGuard }} />
       </head>
-      <body className="bg-black text-white font-sans">{children}</body>
+      <body className="bg-black text-white font-sans">
+        {children}
+        <WhatsAppButton />
+      </body>
     </html>
   );
 }

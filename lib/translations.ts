@@ -78,7 +78,7 @@ export const translations: Record<Locale, Dictionary> = {
     },
     hero: {
       title: "Des créations artisanales qui subliment les espaces d'exception",
-      subtitle: 'Fabrication artisanale depuis plus de 15 ans',
+      subtitle: 'Chaque pièce est fabriquée à la main pour transformer jardins, villas, hôtels et espaces prestigieux.',
       buyNow: 'Découvrir la collection',
       quote: 'Demander un devis',
     },

@@ -11,6 +11,12 @@ interface Props {
 
 export default function Hero({ locale }: Props) {
   const dict = getDictionary(locale);
+  const trustPoints = [
+    "Plus de 15 ans d'expérience",
+    'Fabrication artisanale',
+    'Livraison dans toute la Suisse',
+    'Pièces uniques',
+  ];
 
   return (
     <section className="relative min-h-[82vh] md:min-h-[88vh] flex items-center justify-center text-center overflow-hidden">
@@ -35,14 +41,30 @@ export default function Hero({ locale }: Props) {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
-          className="mt-5 text-lg md:text-2xl text-gray-100"
+          className="mt-5 text-lg md:text-2xl text-gray-100 max-w-3xl mx-auto"
         >
           {dict.hero.subtitle}
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.5 }}
+          transition={{ duration: 0.8, delay: 0.45 }}
+          className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm md:text-base"
+        >
+          {trustPoints.map((point) => (
+            <div
+              key={point}
+              className="bg-black/45 border border-white/20 rounded px-4 py-3 text-white"
+            >
+              <div className="text-yellow-400 leading-none">★★★★★</div>
+              <div className="mt-1 font-medium">{point}</div>
+            </div>
+          ))}
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.6 }}
           className="mt-8 flex justify-center"
         >
           <Link
