@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!--
+    Ce sitemap statique recense les principales URL du site pour chaque
+    langue. Chaque entrée comprend la date de dernière modification afin
+    d’aider les moteurs à détecter les mises à jour. N’incluez jamais de
+    pages bloquées par noindex ou des URLs redirigées【102608916776167†L60-L74】.
+  -->
+  <!-- Pages françaises -->
+  <url><loc>https://monumental-decor.vercel.app/fr/</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/fr/about</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/fr/shop</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/fr/shop/lions</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/fr/shop/gorillas</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/fr/shop/eagles</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/fr/shop/horses</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/fr/shop/vases</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/fr/shop/pots</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/fr/shop/modern</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/fr/shop/classical</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/fr/realizations</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/fr/contact</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/fr/cart</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/fr/wishlist</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/fr/checkout</loc><lastmod>2026-05-30</lastmod></url>
+  <!-- Pages allemandes -->
+  <url><loc>https://monumental-decor.vercel.app/de/</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/de/about</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/de/shop</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/de/shop/lions</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/de/shop/gorillas</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/de/shop/eagles</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/de/shop/horses</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/de/shop/vases</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/de/shop/pots</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/de/shop/modern</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/de/shop/classical</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/de/realizations</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/de/contact</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/de/cart</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/de/wishlist</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/de/checkout</loc><lastmod>2026-05-30</lastmod></url>
+  <!-- Pages italiennes -->
+  <url><loc>https://monumental-decor.vercel.app/it/</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/it/about</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/it/shop</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/it/shop/lions</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/it/shop/gorillas</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/it/shop/eagles</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/it/shop/horses</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/it/shop/vases</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/it/shop/pots</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/it/shop/modern</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/it/shop/classical</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/it/realizations</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/it/contact</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/it/cart</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/it/wishlist</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/it/checkout</loc><lastmod>2026-05-30</lastmod></url>
+  <!-- Pages anglaises -->
+  <url><loc>https://monumental-decor.vercel.app/en/</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/en/about</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/en/shop</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/en/shop/lions</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/en/shop/gorillas</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/en/shop/eagles</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/en/shop/horses</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/en/shop/vases</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/en/shop/pots</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/en/shop/modern</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/en/shop/classical</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/en/realizations</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/en/contact</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/en/cart</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/en/wishlist</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://monumental-decor.vercel.app/en/checkout</loc><lastmod>2026-05-30</lastmod></url>
+</urlset>

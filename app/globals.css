@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Google fonts for elegant typography.
+   These imports will be inlined by the browser and provide
+   Playfair Display for headings and Inter for body text. */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+@layer base {
+  html {
+    font-family: theme('fontFamily.sans');
+    scroll-behavior: smooth;
+  }
+  h1, h2, h3, h4 {
+    font-family: theme('fontFamily.serif');
+    font-weight: 600;
+  }
+  body {
+    @apply bg-background text-light;
+  }
+}

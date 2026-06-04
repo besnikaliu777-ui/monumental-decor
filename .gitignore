@@ -1,0 +1,7 @@
+﻿node_modules/
+.next/
+out/
+next-dev.out.log
+next-dev.err.log
+.vercel/
+app - Copie/

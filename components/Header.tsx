@@ -1,0 +1,65 @@
+import Link from 'next/link';
+import { getDictionary, Locale } from '../lib/translations';
+import CartIcon from './CartIcon';
+import WishlistIcon from './WishlistIcon';
+
+interface Props {
+  locale: Locale;
+}
+
+// Header component. This is a server component because it reads from the
+// translation dictionary. It includes navigation links, language switcher and
+// icons for the cart and wishlist (client components).
+export default async function Header({ locale }: Props) {
+  const dict = getDictionary(locale);
+  const languages: Locale[] = ['fr', 'de', 'it', 'en'];
+  return (
+    <header className="bg-black bg-opacity-80 backdrop-blur sticky top-0 z-50 text-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
+        <div className="flex items-center space-x-4">
+          <Link href={`/${locale}`} className="text-xl font-bold text-yellow-500">
+            Monumental Decor
+          </Link>
+          <nav className="hidden md:flex space-x-6">
+            <Link href={`/${locale}`} className="hover:text-yellow-400">
+              {dict.nav.home}
+            </Link>
+            <Link href={`/${locale}/about`} className="hover:text-yellow-400">
+              {dict.nav.about}
+            </Link>
+            <Link href={`/${locale}/shop`} className="hover:text-yellow-400">
+              {dict.nav.shop}
+            </Link>
+            <Link href={`/${locale}/realizations`} className="hover:text-yellow-400">
+              {dict.nav.realizations}
+            </Link>
+            <Link href={`/${locale}/contact`} className="hover:text-yellow-400">
+              {dict.nav.contact}
+            </Link>
+          </nav>
+        </div>
+        <div className="flex items-center">
+          {/* Language switcher */}
+          <div className="hidden sm:flex space-x-2 mr-4">
+            {languages.map((lang) => (
+              <Link
+                key={lang}
+                href={`/${lang}`}
+                className={
+                  lang === locale
+                    ? 'text-yellow-500 font-semibold'
+                    : 'text-gray-400 hover:text-yellow-400'
+                }
+              >
+                {lang.toUpperCase()}
+              </Link>
+            ))}
+          </div>
+          {/* Icons (client components) */}
+          <CartIcon locale={locale} />
+          <WishlistIcon locale={locale} />
+        </div>
+      </div>
+    </header>
+  );
+}

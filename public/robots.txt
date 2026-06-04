@@ -1,0 +1,14 @@
+# robots.txt for Monumental Decor
+#
+# Ce fichier indique aux crawlers qu’ils peuvent explorer l’ensemble du site.
+# Pour plus d’informations sur l’utilisation de robots.txt, voir la
+# documentation du protocole d’exclusion des robots. N’utilisez pas ce fichier
+# pour masquer des pages sensibles ; préférez les balises `noindex` dans
+# votre HTML. La gestion correcte du crawl permet d’optimiser le budget de
+# Googlebot sans bloquer l’indexation【294371414975021†L83-L140】.
+
+User-agent: *
+Allow: /
+
+# Indique la localisation du sitemap XML
+Sitemap: https://monumental-decor.vercel.app/sitemap.xml
