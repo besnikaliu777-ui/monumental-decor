@@ -27,8 +27,14 @@ export default async function Header({ locale }: Props) {
             <Link href={`/${locale}/about`} className="hover:text-yellow-400">
               {dict.nav.about}
             </Link>
+            <Link href={`/${locale}/savoir-faire`} className="hover:text-yellow-400">
+              Savoir-faire
+            </Link>
             <Link href={`/${locale}/shop`} className="hover:text-yellow-400">
               {dict.nav.shop}
+            </Link>
+            <Link href={`/${locale}/b2b`} className="hover:text-yellow-400">
+              B2B
             </Link>
             <Link href={`/${locale}/realizations`} className="hover:text-yellow-400">
               {dict.nav.realizations}

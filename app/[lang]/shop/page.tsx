@@ -2,6 +2,7 @@ import { getDictionary, Locale } from '../../../lib/translations';
 import { products } from '../../../lib/products';
 import CategoryGrid from '../../../components/CategoryGrid';
 import ProductCard from '../../../components/ProductCard';
+import Link from 'next/link';
 
 interface Props {
   params: { lang: Locale };
@@ -18,6 +19,23 @@ export default async function ShopPage({ params }: Props) {
         <h1 className="text-3xl md:text-4xl font-bold text-white mb-6">
           {dict.nav.shop}
         </h1>
+        <section className="mb-8 rounded bg-gray-950 p-5">
+          <h2 className="text-lg font-semibold text-white">Filtres rapides</h2>
+          <div className="mt-4 flex flex-wrap gap-3 text-sm">
+            <Link href={`/${locale}/shop/animal`} className="rounded border border-yellow-500/40 px-4 py-2 text-yellow-500 hover:bg-yellow-500 hover:text-black">
+              Animal
+            </Link>
+            <Link href={`/${locale}/shop/vaseResine`} className="rounded border border-yellow-500/40 px-4 py-2 text-yellow-500 hover:bg-yellow-500 hover:text-black">
+              Vase résine
+            </Link>
+            <Link href={`/${locale}/shop/vaseBeton`} className="rounded border border-yellow-500/40 px-4 py-2 text-yellow-500 hover:bg-yellow-500 hover:text-black">
+              Vase béton
+            </Link>
+            <span className="rounded bg-gray-900 px-4 py-2 text-gray-300">Livraison Suisse</span>
+            <span className="rounded bg-gray-900 px-4 py-2 text-gray-300">299 CHF à 499 CHF</span>
+            <span className="rounded bg-gray-900 px-4 py-2 text-gray-300">Conseil WhatsApp</span>
+          </div>
+        </section>
         {/* Category grid */}
         <CategoryGrid locale={locale} />
         {/* Product listing */}

@@ -8,6 +8,10 @@ export interface Product {
   dimensions: string;
   weight: string;
   materials: string;
+  delay: string;
+  delivery: string;
+  warranty: string;
+  care: string;
   price: number;
   images: string[];
 }
@@ -23,19 +27,25 @@ export const products: Product[] = [
       en: 'Baroque Angel Vase',
     },
     descriptions: {
-      fr: 'Vase décoratif en résine avec anges, roses et ornements baroques.',
+      fr: 'Vase décoratif en résine avec anges, roses et ornements baroques. Pièce artisanale pensée pour une entrée, une terrasse couverte, un jardin d’hiver ou un espace d’accueil élégant.',
       de: 'Dekorative Harzvase mit Engeln, Rosen und barocken Ornamenten.',
       it: 'Vaso decorativo in resina con angeli, rose e ornamenti barocchi.',
       en: 'Decorative resin vase with angels, roses and baroque ornaments.',
     },
-    dimensions: 'À définir',
-    weight: 'À définir',
+    dimensions: 'Env. 75 x 45 x 40 cm',
+    weight: 'Env. 12 kg',
     materials: 'Résine brute à peindre',
+    delay: 'Disponible sur demande, préparation 3 à 7 jours',
+    delivery: 'Livraison possible dans toute la Suisse',
+    warranty: 'Contrôle qualité avant départ atelier',
+    care: 'Nettoyer avec un chiffon doux, éviter les produits abrasifs',
     price: 299,
     images: [
       '/images/vase-anges-1.jpg',
       '/images/vase-anges-2.jpg',
       '/images/vase-anges-3.jpg',
+      '/images/vase-anges-1.jpg',
+      '/images/vase-anges-2.jpg',
     ],
   },
   {
@@ -48,18 +58,25 @@ export const products: Product[] = [
       en: 'Lady with Amphora',
     },
     descriptions: {
-      fr: 'Statue décorative de dame avec amphore, finition vert antique.',
+      fr: 'Statue décorative de dame avec amphore, finition vert antique. Une pièce forte pour donner du caractère à une allée, une terrasse, une cour ou un jardin.',
       de: 'Dekorative Damenstatue mit Amphore in antikgrüner Optik.',
       it: 'Statua decorativa di dama con anfora, finitura verde anticato.',
       en: 'Decorative lady statue with amphora and antique green finish.',
     },
-    dimensions: 'À définir',
-    weight: 'À définir',
+    dimensions: 'Env. 115 x 38 x 35 cm',
+    weight: 'Env. 28 kg',
     materials: 'Béton finition vert antique',
+    delay: 'Disponible sur demande, préparation 3 à 7 jours',
+    delivery: 'Livraison possible dans toute la Suisse',
+    warranty: 'Contrôle qualité avant départ atelier',
+    care: 'Nettoyer à l’eau claire, protéger du gel extrême si possible',
     price: 499,
     images: [
       '/images/dame-amphore-1.jpg',
       '/images/dame-amphore-2.jpg',
+      '/images/dame-amphore-1.jpg',
+      '/images/dame-amphore-2.jpg',
+      '/images/dame-amphore-1.jpg',
     ],
   },
 ];

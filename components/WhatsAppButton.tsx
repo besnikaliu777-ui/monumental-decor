@@ -1,6 +1,6 @@
 export default function WhatsAppButton() {
   const message = encodeURIComponent(
-    "Bonjour, je souhaite avoir plus d'informations sur vos créations Monumental Decor."
+    "Bonjour, je souhaite demander conseil pour une pièce Monumental Decor."
   );
 
   return (
@@ -8,10 +8,11 @@ export default function WhatsAppButton() {
       href={`https://wa.me/41787763292?text=${message}`}
       target="_blank"
       rel="noopener noreferrer"
-      aria-label="Contacter Monumental Decor sur WhatsApp"
-      className="fixed bottom-5 right-5 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg transition-transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-black md:h-16 md:w-16"
+      aria-label="Demander conseil sur WhatsApp"
+      className="fixed bottom-5 right-5 z-50 flex items-center gap-2 rounded-full bg-[#25D366] px-4 py-3 text-sm font-semibold text-white shadow-lg transition-transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-black"
     >
-      <span className="text-2xl font-bold">☎</span>
+      <span className="text-lg">☎</span>
+      <span>Demander conseil</span>
     </a>
   );
 }
