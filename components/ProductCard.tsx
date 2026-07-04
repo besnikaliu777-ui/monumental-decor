@@ -4,7 +4,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Product } from '../lib/products';
 import { useCart } from '../contexts/CartContext';
-import { useWishlist } from '../contexts/WishlistContext';
 import { getDictionary, Locale } from '../lib/translations';
 import { formatPrice } from '../lib/format';
 
@@ -15,54 +14,47 @@ interface Props {
 
 export default function ProductCard({ product, locale }: Props) {
   const { dispatch: cartDispatch } = useCart();
-  const { dispatch: wishlistDispatch } = useWishlist();
   const dict = getDictionary(locale);
 
   return (
-    <div className="bg-gray-900 rounded-lg overflow-hidden shadow-lg group">
-      <div className="relative h-56">
-        <Link href={`/${locale}/product/${product.slug}`}>
+    <article className="group">
+      <Link href={`/${locale}/product/${product.slug}`} className="block">
+        <div className="relative aspect-[4/5] overflow-hidden bg-[#e4d6c2]">
           <Image
             src={product.images[0]}
             alt={product.names[locale]}
             fill
-            className="object-cover group-hover:scale-105 transition-transform duration-300"
+            className="object-cover transition-transform duration-700 group-hover:scale-[1.03]"
           />
-        </Link>
-      </div>
-      <div className="p-4">
-        <h3 className="text-lg font-semibold text-white mb-1">
-          {product.names[locale]}
-        </h3>
-        <p className="text-yellow-500 font-medium mb-2">
-          {formatPrice(product.price, locale)}
-        </p>
-        <div className="mb-3 space-y-1 text-xs text-gray-400">
-          <p>{product.materials}</p>
-          <p>{product.delivery}</p>
         </div>
-        <div className="flex justify-between space-x-2">
+      </Link>
+
+      <div className="pt-6">
+        <div className="flex items-start justify-between gap-5">
+          <div>
+            <h3 className="text-2xl font-semibold text-[#17130f]">{product.names[locale]}</h3>
+            <p className="mt-2 text-sm text-[#6b5d4d]">{product.materials}</p>
+          </div>
+          <p className="whitespace-nowrap text-xl font-semibold text-[#8a642f]">
+            {formatPrice(product.price, locale)}
+          </p>
+        </div>
+
+        <div className="mt-6 flex flex-col gap-3 sm:flex-row">
           <button
             onClick={() => cartDispatch({ type: 'add', product })}
-            className="flex-1 bg-yellow-500 text-black px-3 py-2 rounded hover:bg-yellow-400 transition-colors text-sm font-medium"
+            className="rounded-sm bg-[#17130f] px-5 py-3 text-sm font-semibold uppercase tracking-[0.16em] text-white hover:bg-[#4a3621]"
           >
             {dict.common.addToCart}
           </button>
-          <button
-            onClick={() => wishlistDispatch({ type: 'add', product })}
-            className="flex-shrink-0 bg-gray-800 text-yellow-500 px-3 py-2 rounded hover:bg-yellow-700 transition-colors text-sm font-medium"
-            aria-label={dict.common.addToWishlist}
+          <Link
+            href={`/${locale}/product/${product.slug}#visualisation-3d`}
+            className="rounded-sm border border-[#17130f] px-5 py-3 text-center text-sm font-semibold uppercase tracking-[0.16em] text-[#17130f] hover:bg-[#17130f] hover:text-white"
           >
-            ♥
-          </button>
+            Voir chez vous
+          </Link>
         </div>
-        <Link
-          href={`/${locale}/product/${product.slug}#visualisation-3d`}
-          className="mt-3 block rounded border border-white/20 px-3 py-2 text-center text-sm font-medium text-white hover:border-yellow-500 hover:text-yellow-500"
-        >
-          Voir dans mon salon
-        </Link>
       </div>
-    </div>
+    </article>
   );
 }

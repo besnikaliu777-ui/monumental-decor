@@ -51,7 +51,7 @@ export default function RootLayout({
       <head>
         <script dangerouslySetInnerHTML={{ __html: extensionErrorGuard }} />
       </head>
-      <body className="bg-black text-white font-sans">
+      <body className="bg-[#f6f0e6] text-[#17130f] font-sans">
         {children}
         <WhatsAppButton />
       </body>

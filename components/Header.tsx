@@ -14,32 +14,32 @@ export default async function Header({ locale }: Props) {
   const dict = getDictionary(locale);
   const languages: Locale[] = ['fr', 'de', 'it', 'en'];
   return (
-    <header className="bg-black bg-opacity-80 backdrop-blur sticky top-0 z-50 text-white">
+    <header className="sticky top-0 z-50 border-b border-[#d8c6aa] bg-[#f6f0e6]/90 text-[#17130f] backdrop-blur">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
         <div className="flex items-center space-x-4">
-          <Link href={`/${locale}`} className="text-xl font-bold text-yellow-500">
+          <Link href={`/${locale}`} className="text-xl font-bold text-[#17130f]">
             Monumental Decor
           </Link>
           <nav className="hidden md:flex space-x-6">
-            <Link href={`/${locale}`} className="hover:text-yellow-400">
+            <Link href={`/${locale}`} className="hover:text-[#8a642f]">
               {dict.nav.home}
             </Link>
-            <Link href={`/${locale}/about`} className="hover:text-yellow-400">
+            <Link href={`/${locale}/about`} className="hover:text-[#8a642f]">
               {dict.nav.about}
             </Link>
-            <Link href={`/${locale}/savoir-faire`} className="hover:text-yellow-400">
+            <Link href={`/${locale}/savoir-faire`} className="hover:text-[#8a642f]">
               Savoir-faire
             </Link>
-            <Link href={`/${locale}/shop`} className="hover:text-yellow-400">
+            <Link href={`/${locale}/shop`} className="hover:text-[#8a642f]">
               {dict.nav.shop}
             </Link>
-            <Link href={`/${locale}/b2b`} className="hover:text-yellow-400">
+            <Link href={`/${locale}/b2b`} className="hover:text-[#8a642f]">
               B2B
             </Link>
-            <Link href={`/${locale}/realizations`} className="hover:text-yellow-400">
+            <Link href={`/${locale}/realizations`} className="hover:text-[#8a642f]">
               {dict.nav.realizations}
             </Link>
-            <Link href={`/${locale}/contact`} className="hover:text-yellow-400">
+            <Link href={`/${locale}/contact`} className="hover:text-[#8a642f]">
               {dict.nav.contact}
             </Link>
           </nav>
@@ -53,8 +53,8 @@ export default async function Header({ locale }: Props) {
                 href={`/${lang}`}
                 className={
                   lang === locale
-                    ? 'text-yellow-500 font-semibold'
-                    : 'text-gray-400 hover:text-yellow-400'
+                    ? 'text-[#8a642f] font-semibold'
+                    : 'text-[#716456] hover:text-[#8a642f]'
                 }
               >
                 {lang.toUpperCase()}

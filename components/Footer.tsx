@@ -9,61 +9,41 @@ export default async function Footer({ locale }: Props) {
   const dict = getDictionary(locale);
 
   return (
-    <footer className="bg-black text-gray-300 py-12 mt-16">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+    <footer className="mt-16 border-t border-[#d8c6aa] bg-[#efe4d3] py-12 text-[#17130f]">
+      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-8 px-4 sm:px-6 md:grid-cols-3 lg:px-8">
         <div>
-          <h3 className="text-yellow-500 text-lg font-semibold mb-3">Monumental Decor</h3>
-          <p className="text-sm mb-4">{dict.hero.subtitle}</p>
-          <p className="text-sm">
+          <h3 className="mb-3 text-lg font-semibold">Monumental Decor</h3>
+          <p className="mb-4 text-sm text-[#5f5448]">Pièces artisanales pour espaces d’exception.</p>
+          <p className="text-sm text-[#5f5448]">
             © {new Date().getFullYear()} Monumental Decor. All rights reserved.
           </p>
         </div>
         <div>
-          <h4 className="text-yellow-500 font-semibold mb-3">Navigation</h4>
-          <ul className="space-y-2 text-sm">
-            <li>
-              <Link href={`/${locale}`} className="hover:text-yellow-400">
-                {dict.nav.home}
-              </Link>
-            </li>
-            <li>
-              <Link href={`/${locale}/about`} className="hover:text-yellow-400">
-                {dict.nav.about}
-              </Link>
-            </li>
-            <li>
-              <Link href={`/${locale}/shop`} className="hover:text-yellow-400">
-                {dict.nav.shop}
-              </Link>
-            </li>
-            <li>
-              <Link href={`/${locale}/realizations`} className="hover:text-yellow-400">
-                {dict.nav.realizations}
-              </Link>
-            </li>
-            <li>
-              <Link href={`/${locale}/contact`} className="hover:text-yellow-400">
-                {dict.nav.contact}
-              </Link>
-            </li>
+          <h4 className="mb-3 font-semibold text-[#8a642f]">Navigation</h4>
+          <ul className="space-y-2 text-sm text-[#5f5448]">
+            <li><Link href={`/${locale}`} className="hover:text-[#17130f]">{dict.nav.home}</Link></li>
+            <li><Link href={`/${locale}/about`} className="hover:text-[#17130f]">{dict.nav.about}</Link></li>
+            <li><Link href={`/${locale}/shop`} className="hover:text-[#17130f]">{dict.nav.shop}</Link></li>
+            <li><Link href={`/${locale}/realizations`} className="hover:text-[#17130f]">{dict.nav.realizations}</Link></li>
+            <li><Link href={`/${locale}/contact`} className="hover:text-[#17130f]">{dict.nav.contact}</Link></li>
           </ul>
         </div>
         <div>
-          <h4 className="text-yellow-500 font-semibold mb-3">{dict.contact.title}</h4>
-          <p className="text-sm mb-2">078 776 32 92</p>
-          <p className="text-sm mb-2">info@monumental-decor.ch</p>
-          <p className="text-sm mb-4">Vuarrens, 1418</p>
+          <h4 className="mb-3 font-semibold text-[#8a642f]">{dict.contact.title}</h4>
+          <p className="mb-2 text-sm text-[#5f5448]">078 776 32 92</p>
+          <p className="mb-2 text-sm text-[#5f5448]">info@monumental-decor.ch</p>
+          <p className="mb-4 text-sm text-[#5f5448]">Vuarrens, 1418</p>
           <form className="flex flex-col space-y-2">
             <input
               type="email"
               placeholder="Email"
-              className="px-3 py-2 rounded bg-gray-800 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-yellow-500"
+              className="rounded-sm border border-[#d8c6aa] bg-[#f6f0e6] px-3 py-2 text-[#17130f] placeholder-[#8f8170] focus:outline-none focus:ring-2 focus:ring-[#8a642f]"
             />
             <button
               type="submit"
-              className="bg-yellow-500 text-black px-4 py-2 rounded hover:bg-yellow-400 transition-colors text-sm font-medium"
+              className="rounded-sm bg-[#17130f] px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-[#4a3621]"
             >
-              S'inscrire
+              S’inscrire
             </button>
           </form>
         </div>

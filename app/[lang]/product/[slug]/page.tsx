@@ -23,94 +23,116 @@ export default function ProductPage({ params }: Props) {
 
   if (!product) {
     return (
-      <main className="py-12">
-        <div className="max-w-5xl mx-auto px-4">
-          <p className="text-gray-300">Produit introuvable.</p>
+      <main className="bg-[#f6f0e6] py-16">
+        <div className="mx-auto max-w-5xl px-4">
+          <p className="text-[#5f5448]">Produit introuvable.</p>
         </div>
       </main>
     );
   }
 
+  const situationImages = product.slug === 'vase-anges-baroque'
+    ? ['/images/vase-anges-1.jpg', '/images/vase-anges-2.jpg']
+    : ['/images/dame-amphore-1.jpg', '/images/dame-amphore-2.jpg'];
+
   return (
-    <main className="py-12">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <button onClick={() => router.back()} className="text-yellow-500 hover:underline mb-4">
+    <main className="bg-[#f6f0e6] text-[#17130f]">
+      <section className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+        <button onClick={() => router.back()} className="mb-8 text-sm uppercase tracking-[0.18em] text-[#6b5d4d] hover:text-[#17130f]">
           ← {dict.common.back}
         </button>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="grid grid-cols-1 gap-4">
-            {product.images.map((src, idx) => (
-              <div key={`${src}-${idx}`} className="relative h-64 md:h-80 rounded-lg overflow-hidden">
-                <Image src={src} alt={product.names[locale]} fill className="object-cover" />
-              </div>
-            ))}
-          </div>
+
+        <div className="grid grid-cols-1 gap-14 lg:grid-cols-[1.1fr_0.9fr]">
           <div className="space-y-5">
-            <h1 className="text-3xl font-bold text-white">
+            <div className="relative aspect-[4/5] overflow-hidden bg-[#e4d6c2]">
+              <Image src={product.images[0]} alt={product.names[locale]} fill className="object-cover" priority />
+            </div>
+            <div className="grid grid-cols-2 gap-5">
+              {product.images.slice(1, 5).map((src, idx) => (
+                <div key={`${src}-${idx}`} className="relative aspect-square overflow-hidden bg-[#e4d6c2]">
+                  <Image src={src} alt={product.names[locale]} fill className="object-cover" />
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="lg:sticky lg:top-24 lg:self-start">
+            <p className="text-sm uppercase tracking-[0.26em] text-[#8a642f]">Pièce artisanale</p>
+            <h1 className="mt-4 text-4xl font-semibold leading-tight md:text-6xl">
               {product.names[locale]}
             </h1>
-            <p className="text-yellow-500 text-2xl font-semibold">
+            <p className="mt-6 text-2xl font-semibold text-[#8a642f]">
               {formatPrice(product.price, locale)}
             </p>
-            <p className="text-gray-300">{product.descriptions[locale]}</p>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm text-gray-300">
-              <Info label={dict.common.dimensions} value={product.dimensions} />
-              <Info label={dict.common.weight} value={product.weight} />
-              <Info label={dict.common.materials} value={product.materials} />
-              <Info label="Délai" value={product.delay} />
-              <Info label="Livraison" value={product.delivery} />
-              <Info label="Garantie" value={product.warranty} />
-              <Info label="Entretien" value={product.care} />
-            </div>
-            <div className="flex flex-col sm:flex-row gap-3 pt-2">
+            <p className="mt-6 text-lg leading-8 text-[#5f5448]">{product.descriptions[locale]}</p>
+
+            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <button
                 onClick={() => cartDispatch({ type: 'add', product })}
-                className="bg-yellow-500 text-black px-6 py-3 rounded hover:bg-yellow-400 transition-colors text-sm font-medium"
+                className="rounded-sm bg-[#17130f] px-6 py-3 text-sm font-semibold uppercase tracking-[0.16em] text-white hover:bg-[#4a3621]"
               >
                 {dict.common.addToCart}
               </button>
               <button
                 onClick={() => wishlistDispatch({ type: 'add', product })}
-                className="bg-gray-800 text-yellow-500 px-6 py-3 rounded hover:bg-gray-700 transition-colors text-sm font-medium"
+                className="rounded-sm border border-[#17130f] px-6 py-3 text-sm font-semibold uppercase tracking-[0.16em] text-[#17130f] hover:bg-[#17130f] hover:text-white"
               >
                 {dict.common.addToWishlist}
               </button>
-              <a
-                href={`https://wa.me/41787763292?text=${encodeURIComponent(`Bonjour, je souhaite un conseil pour ${product.names[locale]}.`)}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-[#25D366] text-white px-6 py-3 rounded hover:bg-[#1fb457] transition-colors text-sm font-medium text-center"
-              >
-                Demander conseil
-              </a>
+            </div>
+
+            <div id="visualisation-3d" className="mt-5">
               <AugmentedProductViewer
                 productName={product.names[locale]}
                 modelType={product.modelType}
                 modelHeightCm={product.modelHeightCm}
               />
             </div>
-            <div className="rounded-lg border border-yellow-500/40 bg-yellow-500/10 p-4 text-sm text-yellow-100">
-              Paiement sécurisé, vérification avant livraison et accompagnement par WhatsApp.
-            </div>
-            <section id="visualisation-3d" className="rounded-lg bg-gray-950 p-5">
-              <h2 className="text-xl font-semibold text-white">Voir dans mon salon</h2>
-              <p className="mt-2 text-sm text-gray-300">
-                Ouvrez la visualisation 3D pour poser l’objet virtuellement au sol ou sur une
-                table, ajuster la taille et activer la caméra sur mobile.
+
+            <div className="mt-10 border-y border-[#d8c6aa] py-6">
+              <h2 className="text-xl font-semibold">Vue 360° et visualisation AR</h2>
+              <p className="mt-3 leading-7 text-[#5f5448]">
+                Tournez le modèle 3D, posez l’objet virtuellement au sol ou sur une table, puis
+                ajustez sa taille approximative depuis votre mobile.
               </p>
-            </section>
+            </div>
+
+            <div className="mt-8 grid grid-cols-1 gap-4 text-sm text-[#5f5448] sm:grid-cols-2">
+              <Info label={dict.common.dimensions} value={product.dimensions} />
+              <Info label={dict.common.weight} value={product.weight} />
+              <Info label={dict.common.materials} value={product.materials} />
+              <Info label="Délai" value={product.delay} />
+              <Info label="Livraison" value={product.delivery} />
+              <Info label="Entretien" value={product.care} />
+            </div>
           </div>
         </div>
-      </div>
+      </section>
+
+      <section className="px-4 py-20 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl">
+          <div className="mb-10">
+            <p className="text-sm uppercase tracking-[0.26em] text-[#8a642f]">En situation</p>
+            <h2 className="mt-3 text-3xl font-semibold md:text-5xl">Photos dans un espace de vie</h2>
+          </div>
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+            {situationImages.map((src) => (
+              <div key={src} className="relative min-h-[420px] overflow-hidden bg-[#e4d6c2]">
+                <Image src={src} alt={`${product.names[locale]} en situation`} fill className="object-cover" />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
 
 function Info({ label, value }: { label: string; value: string }) {
   return (
-    <div className="rounded bg-gray-900 p-3">
-      <span className="block font-semibold text-gray-100">{label}</span>
-      <span>{value}</span>
+    <div className="border-t border-[#d8c6aa] pt-3">
+      <span className="block text-xs font-semibold uppercase tracking-[0.18em] text-[#8a642f]">{label}</span>
+      <span className="mt-2 block">{value}</span>
     </div>
   );
 }

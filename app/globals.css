@@ -17,6 +17,6 @@
     font-weight: 600;
   }
   body {
-    @apply bg-background text-light;
+    @apply bg-[#f6f0e6] text-[#17130f];
   }
 }

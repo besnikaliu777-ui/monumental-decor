@@ -188,9 +188,9 @@ export default function AugmentedProductViewer({
       <button
         type="button"
         onClick={() => setOpen(true)}
-        className="bg-white text-black px-6 py-3 rounded hover:bg-gray-200 transition-colors text-sm font-medium"
+        className="rounded-sm bg-[#17130f] px-6 py-3 text-sm font-semibold uppercase tracking-[0.16em] text-white transition-colors hover:bg-[#4a3621]"
       >
-        Voir dans mon salon
+        Voir chez vous (AR)
       </button>
 
       {open && (
