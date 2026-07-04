@@ -56,6 +56,12 @@ export default function ProductCard({ product, locale }: Props) {
             ♥
           </button>
         </div>
+        <Link
+          href={`/${locale}/product/${product.slug}#visualisation-3d`}
+          className="mt-3 block rounded border border-white/20 px-3 py-2 text-center text-sm font-medium text-white hover:border-yellow-500 hover:text-yellow-500"
+        >
+          Voir dans mon salon
+        </Link>
       </div>
     </div>
   );

@@ -7,6 +7,7 @@ import { useWishlist } from '../../../../contexts/WishlistContext';
 import { getDictionary, Locale } from '../../../../lib/translations';
 import { formatPrice } from '../../../../lib/format';
 import { getProductBySlug, Product } from '../../../../lib/products';
+import AugmentedProductViewer from '../../../../components/AugmentedProductViewer';
 
 interface Props {
   params: { lang: Locale; slug: string };
@@ -82,10 +83,22 @@ export default function ProductPage({ params }: Props) {
               >
                 Demander conseil
               </a>
+              <AugmentedProductViewer
+                productName={product.names[locale]}
+                modelType={product.modelType}
+                modelHeightCm={product.modelHeightCm}
+              />
             </div>
             <div className="rounded-lg border border-yellow-500/40 bg-yellow-500/10 p-4 text-sm text-yellow-100">
               Paiement sécurisé, vérification avant livraison et accompagnement par WhatsApp.
             </div>
+            <section id="visualisation-3d" className="rounded-lg bg-gray-950 p-5">
+              <h2 className="text-xl font-semibold text-white">Voir dans mon salon</h2>
+              <p className="mt-2 text-sm text-gray-300">
+                Ouvrez la visualisation 3D pour poser l’objet virtuellement au sol ou sur une
+                table, ajuster la taille et activer la caméra sur mobile.
+              </p>
+            </section>
           </div>
         </div>
       </div>

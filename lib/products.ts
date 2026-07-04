@@ -12,6 +12,8 @@ export interface Product {
   delivery: string;
   warranty: string;
   care: string;
+  modelType: 'vase' | 'statue';
+  modelHeightCm: number;
   price: number;
   images: string[];
 }
@@ -39,6 +41,8 @@ export const products: Product[] = [
     delivery: 'Livraison possible dans toute la Suisse',
     warranty: 'Contrôle qualité avant départ atelier',
     care: 'Nettoyer avec un chiffon doux, éviter les produits abrasifs',
+    modelType: 'vase',
+    modelHeightCm: 75,
     price: 299,
     images: [
       '/images/vase-anges-1.jpg',
@@ -70,6 +74,8 @@ export const products: Product[] = [
     delivery: 'Livraison possible dans toute la Suisse',
     warranty: 'Contrôle qualité avant départ atelier',
     care: 'Nettoyer à l’eau claire, protéger du gel extrême si possible',
+    modelType: 'statue',
+    modelHeightCm: 115,
     price: 499,
     images: [
       '/images/dame-amphore-1.jpg',
