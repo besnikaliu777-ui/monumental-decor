@@ -24,6 +24,7 @@ export interface Dictionary {
     animal: string;
     vaseResine: string;
     vaseBeton: string;
+    fontaine: string;
   };
   common: {
     addToCart: string;
@@ -86,6 +87,7 @@ export const translations: Record<Locale, Dictionary> = {
       animal: 'Animal',
       vaseResine: 'Vase résine',
       vaseBeton: 'Vase béton',
+      fontaine: 'Fontaine',
     },
     common: {
       addToCart: 'Ajouter au panier',
@@ -150,6 +152,7 @@ export const translations: Record<Locale, Dictionary> = {
       animal: 'Tier',
       vaseResine: 'Harzvase',
       vaseBeton: 'Betonvase',
+      fontaine: 'Brunnen',
     },
     common: {
       addToCart: 'In den Warenkorb',
@@ -214,6 +217,7 @@ export const translations: Record<Locale, Dictionary> = {
       animal: 'Animale',
       vaseResine: 'Vaso in resina',
       vaseBeton: 'Vaso in cemento',
+      fontaine: 'Fontana',
     },
     common: {
       addToCart: 'Aggiungi al carrello',
@@ -278,6 +282,7 @@ export const translations: Record<Locale, Dictionary> = {
       animal: 'Animal',
       vaseResine: 'Resin vase',
       vaseBeton: 'Concrete vase',
+      fontaine: 'Fountain',
     },
     common: {
       addToCart: 'Add to cart',

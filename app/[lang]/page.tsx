@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Locale } from '../../lib/translations';
 import { products } from '../../lib/products';
+import { formatPrice } from '../../lib/format';
 import Hero from '../../components/Hero';
 import ProductCard from '../../components/ProductCard';
 
@@ -58,7 +59,9 @@ export default async function Page({ params }: Props) {
           <div className="flex flex-col justify-center">
             <p className="text-xs uppercase tracking-[0.28em] text-[#8a642f]">Pièce sélectionnée</p>
             <h2 className="mt-4 text-4xl font-semibold md:text-5xl">{featured.names[locale]}</h2>
-            <p className="mt-4 text-2xl font-semibold text-[#8a642f]">299 CHF</p>
+            <p className="mt-4 text-2xl font-semibold text-[#8a642f]">
+              {formatPrice(featured.price, locale)}
+            </p>
             <p className="mt-6 max-w-md leading-8 text-[#5f5448]">
               Une pièce sculpturale pour créer un point focal dans une entrée, une terrasse ou
               un jardin d’hiver.

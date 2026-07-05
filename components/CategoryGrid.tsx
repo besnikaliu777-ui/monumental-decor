@@ -10,6 +10,7 @@ const categoryImages: Record<keyof ReturnType<typeof getDictionary>['categories'
   animal: '/images/lion.png',
   vaseResine: '/images/vase-anges-1.jpg',
   vaseBeton: '/images/dame-amphore-1.jpg',
+  fontaine: '/images/fontaine-dame-modele-a.jpg',
 };
 
 export default async function CategoryGrid({ locale }: Props) {

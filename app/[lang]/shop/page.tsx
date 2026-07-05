@@ -29,6 +29,9 @@ export default async function ShopPage({ params }: Props) {
             <Link href={`/${locale}/shop/vaseBeton`} className="rounded-sm border border-[#17130f] px-4 py-2 text-[#17130f] hover:bg-[#17130f] hover:text-white">
               Vase béton
             </Link>
+            <Link href={`/${locale}/shop/fontaine`} className="rounded-sm border border-[#17130f] px-4 py-2 text-[#17130f] hover:bg-[#17130f] hover:text-white">
+              Fontaine
+            </Link>
             <span className="rounded-sm bg-[#efe4d3] px-4 py-2 text-[#5f5448]">Livraison Suisse</span>
             <span className="rounded-sm bg-[#efe4d3] px-4 py-2 text-[#5f5448]">299 CHF à 499 CHF</span>
             <span className="rounded-sm bg-[#efe4d3] px-4 py-2 text-[#5f5448]">Conseil WhatsApp</span>
