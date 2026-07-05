@@ -24,10 +24,10 @@ export const products: Product[] = [
     slug: 'fontaine-dame-modele-a',
     category: 'fontaine',
     names: {
-      fr: 'Fontaine décorative Dame modèle A',
-      de: 'Dekorativer Damenbrunnen Modell A',
-      it: 'Fontana decorativa Dama modello A',
-      en: 'Decorative Lady Fountain Model A',
+      fr: 'Fontaine décorative Dame',
+      de: 'Dekorativer Damenbrunnen',
+      it: 'Fontana decorativa Dama',
+      en: 'Decorative Lady Fountain',
     },
     descriptions: {
       fr: 'Fontaine décorative avec statue de dame, bassin sculpté et finition pierre claire. Une pièce monumentale pour hall, villa, jardin d’hiver ou terrasse couverte.',
@@ -57,10 +57,10 @@ export const products: Product[] = [
     slug: 'vase-anges-floral-modele-a',
     category: 'vaseResine',
     names: {
-      fr: 'Vase floral aux anges modèle A',
-      de: 'Blumenvase mit Engeln Modell A',
-      it: 'Vaso floreale con angeli modello A',
-      en: 'Floral Angel Vase Model A',
+      fr: 'Vase floral aux anges',
+      de: 'Blumenvase mit Engeln',
+      it: 'Vaso floreale con angeli',
+      en: 'Floral Angel Vase',
     },
     descriptions: {
       fr: 'Vase décoratif aux anges avec ornements floraux et détails dorés. Idéal pour une entrée, un salon, une réception ou une terrasse couverte.',
@@ -209,13 +209,7 @@ export const products: Product[] = [
     care: 'Nettoyer à l’eau claire, éviter les produits abrasifs',
     modelType: 'statue',
     modelHeightCm: 110,
-    price: 0,
-    priceLabel: {
-      fr: 'Prix sur demande',
-      de: 'Preis auf Anfrage',
-      it: 'Prezzo su richiesta',
-      en: 'Price on request',
-    },
+    price: 3499,
     images: [
       '/images/lion-imperial-6200-01.jpg',
       '/images/lion-imperial-6200-01.jpg',
@@ -248,13 +242,7 @@ export const products: Product[] = [
     care: 'Nettoyer à l’eau claire, éviter les produits abrasifs',
     modelType: 'statue',
     modelHeightCm: 100,
-    price: 0,
-    priceLabel: {
-      fr: 'Prix sur demande',
-      de: 'Preis auf Anfrage',
-      it: 'Prezzo su richiesta',
-      en: 'Price on request',
-    },
+    price: 2499,
     images: [
       '/images/gorille-imperial-6100-01.jpg',
       '/images/gorille-imperial-6100-01.jpg',

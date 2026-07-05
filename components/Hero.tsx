@@ -31,7 +31,7 @@ export default function Hero({ locale }: Props) {
             <h1 className="max-w-[18rem] text-3xl font-semibold uppercase leading-[0.95] tracking-[-0.02em] sm:text-4xl md:max-w-xl md:text-6xl">
               L’art monumental qui transforme vos espaces
             </h1>
-            <p className="mt-4 max-w-[16rem] text-sm leading-6 text-[#5f5448] md:mt-5 md:max-w-md md:text-base">
+            <p className="mt-4 max-w-[16rem] text-sm leading-6 text-[#2f2822] md:mt-5 md:max-w-md md:text-base">
               Pièces artisanales pour villas, jardins et lieux d’exception.
             </p>
             <Link

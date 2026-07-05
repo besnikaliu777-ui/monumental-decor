@@ -84,7 +84,7 @@ export const translations: Record<Locale, Dictionary> = {
       quote: 'Demander un devis',
     },
     categories: {
-      animal: 'Animal',
+      animal: 'Animaux',
       vaseResine: 'Vase résine',
       vaseBeton: 'Vase béton',
       fontaine: 'Fontaine',

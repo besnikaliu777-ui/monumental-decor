@@ -21,7 +21,7 @@ export default async function ShopPage({ params }: Props) {
           <h2 className="text-lg font-semibold">Filtres rapides</h2>
           <div className="mt-4 flex flex-wrap gap-3 text-sm">
             <Link href={`/${locale}/shop/animal`} className="rounded-sm border border-[#17130f] px-4 py-2 text-[#17130f] hover:bg-[#17130f] hover:text-white">
-              Animal
+              Animaux
             </Link>
             <Link href={`/${locale}/shop/vaseResine`} className="rounded-sm border border-[#17130f] px-4 py-2 text-[#17130f] hover:bg-[#17130f] hover:text-white">
               Vase résine
