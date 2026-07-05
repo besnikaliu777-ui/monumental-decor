@@ -7,9 +7,9 @@ interface Props {
 }
 
 const categoryImages: Record<keyof ReturnType<typeof getDictionary>['categories'], string> = {
-  animal: '/images/lion.png',
-  vaseResine: '/images/vase-anges-1.jpg',
-  vaseBeton: '/images/dame-amphore-1.jpg',
+  animal: '/images/chien-statue-6125-02.jpg',
+  vaseResine: '/images/vase-anges-floral-modele-a.jpg',
+  vaseBeton: '/images/vase-medicis-6125-02.jpg',
   fontaine: '/images/fontaine-dame-modele-a.jpg',
 };
 

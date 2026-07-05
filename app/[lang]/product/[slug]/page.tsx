@@ -31,9 +31,7 @@ export default function ProductPage({ params }: Props) {
     );
   }
 
-  const situationImages = product.slug === 'vase-anges-baroque'
-    ? ['/images/vase-anges-1.jpg', '/images/vase-anges-2.jpg']
-    : ['/images/dame-amphore-1.jpg', '/images/dame-amphore-2.jpg'];
+  const situationImages = product.images.slice(0, 2);
 
   return (
     <main className="bg-[#f6f0e6] text-[#17130f]">
