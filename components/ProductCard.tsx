@@ -16,6 +16,8 @@ interface Props {
 export default function ProductCard({ product, locale, compact = false }: Props) {
   const { dispatch: cartDispatch } = useCart();
   const dict = getDictionary(locale);
+  const displayPrice = product.priceLabel?.[locale] ?? formatPrice(product.price, locale);
+  const canAddToCart = product.price > 0;
 
   return (
     <article className="group bg-[#fbf7ef] p-4">
@@ -39,17 +41,26 @@ export default function ProductCard({ product, locale, compact = false }: Props)
             {!compact && <p className="mt-2 text-sm text-[#6b5d4d]">{product.materials}</p>}
           </div>
           <p className={compact ? 'whitespace-nowrap text-sm font-semibold text-[#8a642f]' : 'whitespace-nowrap text-xl font-semibold text-[#8a642f]'}>
-            {formatPrice(product.price, locale)}
+            {displayPrice}
           </p>
         </div>
 
         <div className={compact ? 'mt-4 flex flex-col gap-2 sm:flex-row' : 'mt-6 flex flex-col gap-3 sm:flex-row'}>
-          <button
-            onClick={() => cartDispatch({ type: 'add', product })}
-            className="rounded-sm bg-[#17130f] px-5 py-3 text-xs font-semibold uppercase tracking-[0.16em] text-white hover:bg-[#4a3621]"
-          >
-            {dict.common.addToCart}
-          </button>
+          {canAddToCart ? (
+            <button
+              onClick={() => cartDispatch({ type: 'add', product })}
+              className="rounded-sm bg-[#17130f] px-5 py-3 text-xs font-semibold uppercase tracking-[0.16em] text-white hover:bg-[#4a3621]"
+            >
+              {dict.common.addToCart}
+            </button>
+          ) : (
+            <Link
+              href={`/${locale}/product/${product.slug}`}
+              className="rounded-sm bg-[#17130f] px-5 py-3 text-center text-xs font-semibold uppercase tracking-[0.16em] text-white hover:bg-[#4a3621]"
+            >
+              Demander le prix
+            </Link>
+          )}
           <Link
             href={`/${locale}/product/${product.slug}#visualisation-3d`}
             className="rounded-sm border border-[#17130f] px-5 py-3 text-center text-xs font-semibold uppercase tracking-[0.16em] text-[#17130f] hover:bg-[#17130f] hover:text-white"

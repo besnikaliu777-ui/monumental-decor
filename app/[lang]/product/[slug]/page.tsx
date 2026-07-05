@@ -20,6 +20,8 @@ export default function ProductPage({ params }: Props) {
   const { dispatch: cartDispatch } = useCart();
   const { dispatch: wishlistDispatch } = useWishlist();
   const router = useRouter();
+  const displayPrice = product?.priceLabel?.[locale] ?? (product ? formatPrice(product.price, locale) : '');
+  const canAddToCart = Boolean(product && product.price > 0);
 
   if (!product) {
     return (
@@ -60,17 +62,28 @@ export default function ProductPage({ params }: Props) {
               {product.names[locale]}
             </h1>
             <p className="mt-6 text-2xl font-semibold text-[#8a642f]">
-              {formatPrice(product.price, locale)}
+              {displayPrice}
             </p>
             <p className="mt-6 text-lg leading-8 text-[#5f5448]">{product.descriptions[locale]}</p>
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-              <button
-                onClick={() => cartDispatch({ type: 'add', product })}
-                className="rounded-sm bg-[#17130f] px-6 py-3 text-sm font-semibold uppercase tracking-[0.16em] text-white hover:bg-[#4a3621]"
-              >
-                {dict.common.addToCart}
-              </button>
+              {canAddToCart ? (
+                <button
+                  onClick={() => cartDispatch({ type: 'add', product })}
+                  className="rounded-sm bg-[#17130f] px-6 py-3 text-sm font-semibold uppercase tracking-[0.16em] text-white hover:bg-[#4a3621]"
+                >
+                  {dict.common.addToCart}
+                </button>
+              ) : (
+                <a
+                  href={`https://wa.me/41787763292?text=${encodeURIComponent(`Bonjour, je souhaite connaître le prix pour ${product.names[locale]}.`)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded-sm bg-[#17130f] px-6 py-3 text-center text-sm font-semibold uppercase tracking-[0.16em] text-white hover:bg-[#4a3621]"
+                >
+                  Demander le prix
+                </a>
+              )}
               <button
                 onClick={() => wishlistDispatch({ type: 'add', product })}
                 className="rounded-sm border border-[#17130f] px-6 py-3 text-sm font-semibold uppercase tracking-[0.16em] text-[#17130f] hover:bg-[#17130f] hover:text-white"

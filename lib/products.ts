@@ -15,6 +15,7 @@ export interface Product {
   modelType: 'vase' | 'statue';
   modelHeightCm: number;
   price: number;
+  priceLabel?: Record<Locale, string>;
   images: string[];
 }
 
@@ -182,6 +183,84 @@ export const products: Product[] = [
       '/images/paon-monumental.jpg',
       '/images/paon-monumental.jpg',
       '/images/paon-monumental.jpg',
+    ],
+  },
+  {
+    slug: 'lion-imperial-6200-01',
+    category: 'animal',
+    names: {
+      fr: 'Lion impérial 6200-01',
+      de: 'Imperialer Löwe 6200-01',
+      it: 'Leone imperiale 6200-01',
+      en: 'Imperial Lion 6200-01',
+    },
+    descriptions: {
+      fr: 'Statue de lion impérial avec finition pierre réaliste. Une pièce monumentale pour entrée de villa, terrasse, jardin ou espace d’accueil.',
+      de: 'Imperiale Löwenstatue mit realistischer Steinoptik.',
+      it: 'Statua di leone imperiale con finitura effetto pietra realistica.',
+      en: 'Imperial lion statue with realistic stone-effect finish.',
+    },
+    dimensions: 'Env. 110 x 130 x 60 cm',
+    weight: 'Env. 55 kg',
+    materials: 'Résine haute résistance, détails réalistes',
+    delay: 'Disponible sur commande, préparation 7 à 14 jours',
+    delivery: 'Livraison possible dans toute la Suisse',
+    warranty: 'Contrôle qualité avant départ atelier',
+    care: 'Nettoyer à l’eau claire, éviter les produits abrasifs',
+    modelType: 'statue',
+    modelHeightCm: 110,
+    price: 0,
+    priceLabel: {
+      fr: 'Prix sur demande',
+      de: 'Preis auf Anfrage',
+      it: 'Prezzo su richiesta',
+      en: 'Price on request',
+    },
+    images: [
+      '/images/lion-imperial-6200-01.jpg',
+      '/images/lion-imperial-6200-01.jpg',
+      '/images/lion-imperial-6200-01.jpg',
+      '/images/lion-imperial-6200-01.jpg',
+      '/images/lion-imperial-6200-01.jpg',
+    ],
+  },
+  {
+    slug: 'gorille-imperial-6100-01',
+    category: 'animal',
+    names: {
+      fr: 'Gorille impérial 6100-01',
+      de: 'Imperialer Gorilla 6100-01',
+      it: 'Gorilla imperiale 6100-01',
+      en: 'Imperial Gorilla 6100-01',
+    },
+    descriptions: {
+      fr: 'Statue de gorille impérial en finition noire réaliste. Pièce expressive pour jardin, terrasse, hôtel ou entrée paysagère.',
+      de: 'Imperiale Gorillastatue in realistischer schwarzer Ausführung.',
+      it: 'Statua di gorilla imperiale con finitura nera realistica.',
+      en: 'Imperial gorilla statue with realistic black finish.',
+    },
+    dimensions: 'Env. 100 x 120 x 69 cm',
+    weight: 'Env. 60 kg',
+    materials: 'Résine haute résistance, détails réalistes',
+    delay: 'Disponible sur commande, préparation 7 à 14 jours',
+    delivery: 'Livraison possible dans toute la Suisse',
+    warranty: 'Contrôle qualité avant départ atelier',
+    care: 'Nettoyer à l’eau claire, éviter les produits abrasifs',
+    modelType: 'statue',
+    modelHeightCm: 100,
+    price: 0,
+    priceLabel: {
+      fr: 'Prix sur demande',
+      de: 'Preis auf Anfrage',
+      it: 'Prezzo su richiesta',
+      en: 'Price on request',
+    },
+    images: [
+      '/images/gorille-imperial-6100-01.jpg',
+      '/images/gorille-imperial-6100-01.jpg',
+      '/images/gorille-imperial-6100-01.jpg',
+      '/images/gorille-imperial-6100-01.jpg',
+      '/images/gorille-imperial-6100-01.jpg',
     ],
   },
 ];
