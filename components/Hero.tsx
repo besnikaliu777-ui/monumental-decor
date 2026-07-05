@@ -15,7 +15,7 @@ export default function Hero({ locale }: Props) {
       <div className="mx-auto max-w-7xl">
         <div className="relative min-h-[58vh] overflow-hidden rounded-sm md:min-h-[68vh]">
           <Image
-            src="/images/hero-luxury-vase.png"
+            src="/images/hero-luxury-vase-v2.png"
             alt="Vase monumental sur terrasse de villa"
             fill
             className="object-cover object-center"
