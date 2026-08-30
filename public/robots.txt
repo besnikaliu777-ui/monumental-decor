@@ -11,4 +11,4 @@ User-agent: *
 Allow: /
 
 # Indique la localisation du sitemap XML
-Sitemap: https://monumental-decor.vercel.app/sitemap.xml
+Sitemap: https://www.monumental-decor.ch/sitemap.xml
