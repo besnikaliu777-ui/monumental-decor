@@ -1,11 +1,17 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getDictionary, Locale } from '../../../lib/translations';
 import { products } from '../../../lib/products';
 import CategoryGrid from '../../../components/CategoryGrid';
 import ProductCard from '../../../components/ProductCard';
+import { pageMetadata } from '../../../lib/seo';
 
 interface Props {
   params: { lang: Locale };
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  return pageMetadata('shop', params.lang, 'shop');
 }
 
 export default async function ShopPage({ params }: Props) {
