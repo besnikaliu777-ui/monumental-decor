@@ -1,8 +1,14 @@
+import type { Metadata } from 'next';
 import Image from 'next/image';
 import { Locale } from '../../../lib/translations';
+import { frenchOnlyMetadata } from '../../../lib/seo';
 
 interface Props {
   params: { lang: Locale };
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  return frenchOnlyMetadata('savoir-faire', params.lang);
 }
 
 export default async function SavoirFairePage({ params }: Props) {
@@ -11,8 +17,8 @@ export default async function SavoirFairePage({ params }: Props) {
   return (
     <main className="py-12">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-3xl md:text-5xl font-bold text-white">Notre savoir-faire</h1>
-        <p className="mt-5 max-w-3xl text-gray-300">
+        <h1 className="text-3xl md:text-5xl font-bold text-[#17130f]">Notre savoir-faire</h1>
+        <p className="mt-5 max-w-3xl text-[#5f5448]">
           Monumental Decor sélectionne et prépare des pièces décoratives pensées pour les
           extérieurs, les villas, les hôtels, les restaurants et les projets architecturaux.
           Chaque objet doit créer une présence forte sans perdre son élégance.
@@ -29,9 +35,9 @@ export default async function SavoirFairePage({ params }: Props) {
               ['Accompagnement', 'Conseil direct par WhatsApp pour choisir une pièce adaptée au projet.'],
               ['Installation', 'Recommandations selon poids, exposition, accès et rendu souhaité.'],
             ].map(([title, text]) => (
-              <div key={title} className="rounded bg-gray-900 p-5">
-                <h2 className="text-xl font-semibold text-yellow-500">{title}</h2>
-                <p className="mt-2 text-gray-300">{text}</p>
+              <div key={title} className="rounded bg-[#fbf7ef] border border-[#d8c6aa] p-5">
+                <h2 className="text-xl font-semibold text-[#8a642f]">{title}</h2>
+                <p className="mt-2 text-[#5f5448]">{text}</p>
               </div>
             ))}
           </div>
