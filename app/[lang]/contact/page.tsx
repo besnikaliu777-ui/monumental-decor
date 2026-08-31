@@ -1,4 +1,6 @@
+import type { Metadata } from 'next';
 import { getDictionary, Locale } from '../../../lib/translations';
+import { pageMetadata } from '../../../lib/seo';
 
 interface Props {
   params: { lang: Locale };
@@ -6,6 +8,10 @@ interface Props {
 
 // Contact page with form and contact information. The form is not hooked
 // to a backend; in production you would handle submissions via an API route.
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  return pageMetadata('contact', params.lang, 'contact');
+}
+
 export default async function ContactPage({ params }: Props) {
   const locale = params.lang;
   const dict = getDictionary(locale);
