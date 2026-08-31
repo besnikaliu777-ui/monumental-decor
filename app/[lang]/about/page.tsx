@@ -1,11 +1,17 @@
+import type { Metadata } from 'next';
 import { getDictionary, Locale } from '../../../lib/translations';
 import Image from 'next/image';
+import { pageMetadata } from '../../../lib/seo';
 
 interface Props {
   params: { lang: Locale };
 }
 
 // About page. Presents the company history and craftsmanship.
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  return pageMetadata('about', params.lang, 'about');
+}
+
 export default async function AboutPage({ params }: Props) {
   const locale = params.lang;
   const dict = getDictionary(locale);
