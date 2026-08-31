@@ -1,9 +1,15 @@
+import type { Metadata } from 'next';
 import { getDictionary, Locale } from '../../../../lib/translations';
 import { getProductsByCategory, Product } from '../../../../lib/products';
 import ProductCard from '../../../../components/ProductCard';
+import { categoryMetadata } from '../../../../lib/seo';
 
 interface Props {
   params: { lang: Locale; category: Product['category'] };
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  return categoryMetadata(params.category, params.lang);
 }
 
 export default async function CategoryPage({ params }: Props) {
