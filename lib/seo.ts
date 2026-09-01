@@ -154,6 +154,28 @@ const PAGES: Record<string, Copy> = {
         'A question or a project? Contact Monumental Decor by WhatsApp or email for a personalised quote on our decorative statues and vases.',
     },
   },
+  blog: {
+    fr: {
+      title: 'Conseils : choisir et entretenir une statue | Monumental Decor',
+      description:
+        'Comment choisir une statue selon le recul et l’exposition, résine ou béton, et comment entretenir une pièce décorative extérieure sans l’abîmer.',
+    },
+    de: {
+      title: 'Ratgeber: Gartenstatuen wählen und pflegen | Monumental Decor',
+      description:
+        'Wie Sie eine Statue nach Abstand und Lage wählen, Kunstharz oder Beton, und wie Sie ein dekoratives Aussenstück pflegen, ohne es zu beschädigen.',
+    },
+    it: {
+      title: 'Consigli: scegliere e curare una statua | Monumental Decor',
+      description:
+        'Come scegliere una statua secondo distanza ed esposizione, resina o cemento, e come curare un pezzo decorativo da esterno senza rovinarlo.',
+    },
+    en: {
+      title: 'Advice: Choosing and Caring for a Statue | Monumental Decor',
+      description:
+        'How to choose a statue for viewing distance and exposure, resin or concrete, and how to care for a decorative outdoor piece without damaging it.',
+    },
+  },
   realizations: {
     fr: {
       title: 'Réalisations : avant / après | Monumental Decor',
@@ -275,11 +297,6 @@ const FRENCH_ONLY: Record<string, { title: string; description: string }> = {
     title: 'Hôtels, restaurants et architectes | Monumental Decor',
     description:
       "Monumental Decor accompagne les projets professionnels : entrées d'hôtel, terrasses, lobbies, restaurants et projets paysagers. Conseil et devis sur mesure.",
-  },
-  blog: {
-    title: 'Blog conseil : choisir une statue décorative | Monumental Decor',
-    description:
-      'Conseils pratiques pour choisir une statue ou un vase décoratif : hauteur, matière, éclairage, entretien et implantation dans un jardin ou une villa.',
   },
   'savoir-faire': {
     title: 'Notre savoir-faire | Monumental Decor',
