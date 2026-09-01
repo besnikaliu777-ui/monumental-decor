@@ -5,11 +5,27 @@ import { Dictionary, Locale } from '../../../lib/translations';
 
 const WHATSAPP_NUMBER = '41787763292';
 
+const INBOX = 'info@monumental-decor.ch';
+
 const HINTS: Record<Locale, string> = {
   fr: 'Votre message s’ouvre dans WhatsApp, prêt à envoyer.',
   de: 'Ihre Nachricht öffnet sich versandbereit in WhatsApp.',
   it: 'Il messaggio si apre in WhatsApp, pronto per l’invio.',
   en: 'Your message opens in WhatsApp, ready to send.',
+};
+
+const EMAIL_BUTTON: Record<Locale, string> = {
+  fr: 'Par email',
+  de: 'Per E-Mail',
+  it: 'Via email',
+  en: 'By email',
+};
+
+const EMAIL_SUBJECT: Record<Locale, string> = {
+  fr: 'Demande via le site',
+  de: 'Anfrage über die Website',
+  it: 'Richiesta dal sito',
+  en: 'Enquiry from the website',
 };
 
 const fieldClass =
@@ -36,8 +52,7 @@ export default function ContactForm({ locale, dict }: Props) {
     event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => setForm({ ...form, [key]: event.target.value });
 
-  const handleSubmit = (event: React.FormEvent) => {
-    event.preventDefault();
+  const composeMessage = () => {
     const details: string[] = [];
     if (form.name) details.push(`${dict.contact.name} : ${form.name}`);
     if (form.email) details.push(`${dict.contact.email} : ${form.email}`);
@@ -47,9 +62,19 @@ export default function ContactForm({ locale, dict }: Props) {
     if (details.length) blocks.push(details.join('\n'));
     if (form.message) blocks.push(form.message);
 
-    const text = encodeURIComponent(blocks.join('\n\n').trim());
+    return blocks.join('\n\n').trim();
+  };
+
+  const handleSubmit = (event: React.FormEvent) => {
+    event.preventDefault();
+    const text = encodeURIComponent(composeMessage());
     window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${text}`, '_blank', 'noopener');
   };
+
+  const mailtoHref =
+    `mailto:${INBOX}` +
+    `?subject=${encodeURIComponent(EMAIL_SUBJECT[locale])}` +
+    `&body=${encodeURIComponent(composeMessage())}`;
 
   return (
     <form className="mt-8 space-y-5" onSubmit={handleSubmit}>
@@ -75,12 +100,21 @@ export default function ContactForm({ locale, dict }: Props) {
       </div>
 
       <div className="flex flex-col-reverse gap-3 pb-14 sm:flex-row sm:items-center sm:pb-0">
-        <button
-          type="submit"
-          className="rounded-sm bg-[#17130f] px-7 py-3 text-xs font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#4a3621]"
-        >
-          {dict.contact.submit}
-        </button>
+        <div className="flex flex-wrap gap-3">
+          <button
+            type="submit"
+            className="rounded-sm bg-[#17130f] px-7 py-3 text-xs font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#4a3621]"
+          >
+            {dict.contact.submit}
+          </button>
+          <a
+            id="contact-email"
+            href={mailtoHref}
+            className="rounded-sm border border-[#17130f] px-7 py-3 text-xs font-semibold uppercase tracking-[0.18em] text-[#17130f] transition-colors hover:bg-[#17130f] hover:text-white"
+          >
+            {EMAIL_BUTTON[locale]}
+          </a>
+        </div>
         <p className="text-sm text-[#6b5d4d]">{HINTS[locale]}</p>
       </div>
     </form>
