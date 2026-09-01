@@ -20,17 +20,17 @@ export default function CartPage({ params }: Props) {
   return (
     <main className="py-12">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-3xl md:text-4xl font-bold text-white mb-6">
+        <h1 className="text-3xl md:text-4xl font-bold text-[#17130f] mb-6">
           {dict.nav.cart}
         </h1>
         {items.length === 0 ? (
-          <p className="text-gray-300">{dict.common.emptyCart}</p>
+          <p className="text-[#5f5448]">{dict.common.emptyCart}</p>
         ) : (
           <div className="space-y-6">
             {items.map((item) => (
               <div
                 key={item.product.slug}
-                className="flex items-center justify-between bg-gray-900 rounded-lg p-4"
+                className="flex items-center justify-between rounded-sm border border-[#d8c6aa] bg-[#fbf7ef] p-4"
               >
                 <div className="flex items-center space-x-4">
                   <div className="relative w-24 h-24">
@@ -42,22 +42,22 @@ export default function CartPage({ params }: Props) {
                     />
                   </div>
                   <div>
-                    <h3 className="text-white font-semibold">
+                    <h3 className="text-[#17130f] font-semibold">
                       {item.product.names[locale]}
                     </h3>
-                    <p className="text-gray-400 text-sm">
+                    <p className="text-[#6b5d4d] text-sm">
                       {formatPrice(item.product.price, locale)} × {item.quantity}
                     </p>
                     <div className="flex items-center space-x-2 mt-2">
                       <button
-                        className="bg-gray-800 text-yellow-500 px-2 py-1 rounded"
+                        className="rounded-sm border border-[#d8c6aa] bg-white px-3 py-1 text-[#17130f] hover:bg-[#efe4d3]"
                         onClick={() => dispatch({ type: 'decrement', slug: item.product.slug })}
                       >
                         −
                       </button>
-                      <span className="text-white">{item.quantity}</span>
+                      <span className="text-[#17130f]">{item.quantity}</span>
                       <button
-                        className="bg-gray-800 text-yellow-500 px-2 py-1 rounded"
+                        className="rounded-sm border border-[#d8c6aa] bg-white px-3 py-1 text-[#17130f] hover:bg-[#efe4d3]"
                         onClick={() => dispatch({ type: 'increment', slug: item.product.slug })}
                       >
                         +
@@ -66,7 +66,7 @@ export default function CartPage({ params }: Props) {
                   </div>
                 </div>
                 <div className="text-right">
-                  <p className="text-yellow-500 font-semibold">
+                  <p className="text-[#8a642f] font-semibold">
                     {formatPrice(item.product.price * item.quantity, locale)}
                   </p>
                   <button
@@ -80,12 +80,12 @@ export default function CartPage({ params }: Props) {
             ))}
             <div className="flex justify-end mt-4">
               <div className="text-right">
-                <p className="text-xl text-white font-bold">
+                <p className="text-xl text-[#17130f] font-bold">
                   {dict.common.total}: {formatPrice(total, locale)}
                 </p>
                 <Link
                   href={`/${locale}/checkout`}
-                  className="mt-4 inline-block bg-yellow-500 text-black px-6 py-3 rounded font-medium hover:bg-yellow-400 transition-colors"
+                  className="mt-4 inline-block rounded-sm bg-[#17130f] px-6 py-3 text-xs font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-[#4a3621]"
                 >
                   {dict.common.proceedToCheckout}
                 </Link>
