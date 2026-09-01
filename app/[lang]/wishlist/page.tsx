@@ -25,17 +25,17 @@ export default function WishlistPage({ params }: Props) {
   return (
     <main className="py-12">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-3xl md:text-4xl font-bold text-white mb-6">
+        <h1 className="text-3xl md:text-4xl font-bold text-[#17130f] mb-6">
           {dict.nav.wishlist}
         </h1>
         {items.length === 0 ? (
-          <p className="text-gray-300">{dict.common.emptyWishlist}</p>
+          <p className="text-[#5f5448]">{dict.common.emptyWishlist}</p>
         ) : (
           <div className="space-y-6">
             {items.map((product) => (
               <div
                 key={product.slug}
-                className="flex items-center justify-between bg-gray-900 rounded-lg p-4"
+                className="flex items-center justify-between rounded-sm border border-[#d8c6aa] bg-[#fbf7ef] p-4"
               >
                 <div className="flex items-center space-x-4">
                   <div className="relative w-24 h-24">
@@ -47,17 +47,17 @@ export default function WishlistPage({ params }: Props) {
                     />
                   </div>
                   <div>
-                    <h3 className="text-white font-semibold">
+                    <h3 className="text-[#17130f] font-semibold">
                       {product.names[locale]}
                     </h3>
-                    <p className="text-gray-400 text-sm">
+                    <p className="text-[#6b5d4d] text-sm">
                       {formatPrice(product.price, locale)}
                     </p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
                   <button
-                    className="bg-yellow-500 text-black px-4 py-2 rounded hover:bg-yellow-400 transition-colors text-sm font-medium"
+                    className="rounded-sm bg-[#17130f] px-4 py-2 text-xs font-semibold uppercase tracking-[0.16em] text-white transition-colors hover:bg-[#4a3621]"
                     onClick={() => handleAddToCart(product)}
                   >
                     {dict.common.addToCart}
