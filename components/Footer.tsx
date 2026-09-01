@@ -30,9 +30,9 @@ export default async function Footer({ locale }: Props) {
         </div>
         <div>
           <h4 className="mb-3 font-semibold text-[#8a642f]">{dict.contact.title}</h4>
-          <p className="mb-2 text-sm text-[#5f5448]">078 776 32 92</p>
+          <p className="mb-2 text-sm text-[#5f5448]">+41 78 776 32 92</p>
           <p className="mb-2 text-sm text-[#5f5448]">info@monumental-decor.ch</p>
-          <p className="mb-4 text-sm text-[#5f5448]">Vuarrens, 1418</p>
+          <p className="mb-4 text-sm text-[#5f5448]">1418 Vuarrens, Suisse</p>
           <form className="flex flex-col space-y-2">
             <input
               type="email"

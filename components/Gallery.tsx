@@ -23,10 +23,10 @@ export default async function Gallery({ locale }: Props) {
   return (
     <section className="py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
+        <h2 className="text-2xl md:text-3xl font-bold text-[#17130f] mb-4">
           {dict.realizations.title}
         </h2>
-        <p className="text-gray-300 mb-8">{dict.realizations.subtitle}</p>
+        <p className="text-[#5f5448] mb-8">{dict.realizations.subtitle}</p>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
           {images.map((src, index) => (
             <div key={index} className="relative h-40 md:h-56 overflow-hidden rounded-lg">
