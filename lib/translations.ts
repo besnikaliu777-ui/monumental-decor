@@ -331,3 +331,9 @@ export const translations: Record<Locale, Dictionary> = {
 export function getDictionary(locale: Locale): Dictionary {
   return translations[locale] ?? translations.en;
 }
+
+export const LOCALE_LIST: Locale[] = ['fr', 'de', 'it', 'en'];
+
+export function isLocale(value: string): value is Locale {
+  return (LOCALE_LIST as string[]).includes(value);
+}
