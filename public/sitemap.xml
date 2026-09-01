@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <!--
-    Genere depuis les routes reelles de l'application et lib/products.ts.
-    Les pages panier / favoris / paiement sont volontairement exclues,
-    ainsi que toute URL de categorie inexistante.
-  -->
   <!-- FR -->
   <url>
     <loc>https://www.monumental-decor.ch/fr/</loc>
@@ -14,7 +9,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/fr/shop</loc>
@@ -23,7 +18,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/shop"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/shop"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/shop"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/fr/shop/animal</loc>
@@ -32,7 +27,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/shop/animal"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/shop/animal"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/shop/animal"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/fr/shop/vaseResine</loc>
@@ -41,7 +36,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/shop/vaseResine"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/shop/vaseResine"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/shop/vaseResine"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/fr/shop/vaseBeton</loc>
@@ -50,7 +45,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/shop/vaseBeton"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/shop/vaseBeton"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/shop/vaseBeton"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/fr/shop/fontaine</loc>
@@ -59,7 +54,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/shop/fontaine"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/shop/fontaine"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/shop/fontaine"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/fr/product/fontaine-dame-modele-a</loc>
@@ -68,7 +63,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/product/fontaine-dame-modele-a"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/product/fontaine-dame-modele-a"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/product/fontaine-dame-modele-a"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/fr/product/vase-anges-floral-modele-a</loc>
@@ -77,7 +72,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/product/vase-anges-floral-modele-a"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/product/vase-anges-floral-modele-a"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/product/vase-anges-floral-modele-a"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/fr/product/vase-medicis-6125-02</loc>
@@ -86,7 +81,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/product/vase-medicis-6125-02"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/product/vase-medicis-6125-02"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/product/vase-medicis-6125-02"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/fr/product/chien-statue-6125-02</loc>
@@ -95,7 +90,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/product/chien-statue-6125-02"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/product/chien-statue-6125-02"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/product/chien-statue-6125-02"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/fr/product/paon-monumental</loc>
@@ -104,7 +99,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/product/paon-monumental"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/product/paon-monumental"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/product/paon-monumental"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/fr/product/lion-imperial-6200-01</loc>
@@ -113,7 +108,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/product/lion-imperial-6200-01"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/product/lion-imperial-6200-01"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/product/lion-imperial-6200-01"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/fr/product/gorille-imperial-6100-01</loc>
@@ -122,7 +117,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/product/gorille-imperial-6100-01"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/product/gorille-imperial-6100-01"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/product/gorille-imperial-6100-01"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/fr/about</loc>
@@ -131,7 +126,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/about"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/about"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/about"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/fr/realizations</loc>
@@ -140,7 +135,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/realizations"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/realizations"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/realizations"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/fr/contact</loc>
@@ -149,7 +144,70 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/contact"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/contact"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/contact"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.monumental-decor.ch/fr/blog</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.monumental-decor.ch/fr/blog"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.monumental-decor.ch/de/blog"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/blog"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/blog"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/blog"/>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.monumental-decor.ch/fr/blog/choisir-statue-entree-villa</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.monumental-decor.ch/fr/blog/choisir-statue-entree-villa"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.monumental-decor.ch/de/blog/choisir-statue-entree-villa"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/blog/choisir-statue-entree-villa"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/blog/choisir-statue-entree-villa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/blog/choisir-statue-entree-villa"/>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.monumental-decor.ch/fr/blog/resine-ou-beton</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.monumental-decor.ch/fr/blog/resine-ou-beton"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.monumental-decor.ch/de/blog/resine-ou-beton"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/blog/resine-ou-beton"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/blog/resine-ou-beton"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/blog/resine-ou-beton"/>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.monumental-decor.ch/fr/blog/entretenir-piece-exterieure</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.monumental-decor.ch/fr/blog/entretenir-piece-exterieure"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.monumental-decor.ch/de/blog/entretenir-piece-exterieure"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/blog/entretenir-piece-exterieure"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/blog/entretenir-piece-exterieure"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/blog/entretenir-piece-exterieure"/>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.monumental-decor.ch/fr/legal/mentions-legales</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.monumental-decor.ch/fr/legal/mentions-legales"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.monumental-decor.ch/de/legal/mentions-legales"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/legal/mentions-legales"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/legal/mentions-legales"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/legal/mentions-legales"/>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.monumental-decor.ch/fr/legal/cgv</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.monumental-decor.ch/fr/legal/cgv"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.monumental-decor.ch/de/legal/cgv"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/legal/cgv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/legal/cgv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/legal/cgv"/>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.monumental-decor.ch/fr/legal/confidentialite</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.monumental-decor.ch/fr/legal/confidentialite"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.monumental-decor.ch/de/legal/confidentialite"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/legal/confidentialite"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/legal/confidentialite"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/legal/confidentialite"/>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <!-- DE -->
   <url>
@@ -159,7 +217,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/de/shop</loc>
@@ -168,7 +226,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/shop"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/shop"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/shop"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/de/shop/animal</loc>
@@ -177,7 +235,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/shop/animal"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/shop/animal"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/shop/animal"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/de/shop/vaseResine</loc>
@@ -186,7 +244,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/shop/vaseResine"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/shop/vaseResine"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/shop/vaseResine"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/de/shop/vaseBeton</loc>
@@ -195,7 +253,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/shop/vaseBeton"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/shop/vaseBeton"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/shop/vaseBeton"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/de/shop/fontaine</loc>
@@ -204,7 +262,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/shop/fontaine"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/shop/fontaine"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/shop/fontaine"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/de/product/fontaine-dame-modele-a</loc>
@@ -213,7 +271,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/product/fontaine-dame-modele-a"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/product/fontaine-dame-modele-a"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/product/fontaine-dame-modele-a"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/de/product/vase-anges-floral-modele-a</loc>
@@ -222,7 +280,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/product/vase-anges-floral-modele-a"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/product/vase-anges-floral-modele-a"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/product/vase-anges-floral-modele-a"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/de/product/vase-medicis-6125-02</loc>
@@ -231,7 +289,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/product/vase-medicis-6125-02"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/product/vase-medicis-6125-02"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/product/vase-medicis-6125-02"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/de/product/chien-statue-6125-02</loc>
@@ -240,7 +298,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/product/chien-statue-6125-02"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/product/chien-statue-6125-02"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/product/chien-statue-6125-02"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/de/product/paon-monumental</loc>
@@ -249,7 +307,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/product/paon-monumental"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/product/paon-monumental"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/product/paon-monumental"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/de/product/lion-imperial-6200-01</loc>
@@ -258,7 +316,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/product/lion-imperial-6200-01"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/product/lion-imperial-6200-01"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/product/lion-imperial-6200-01"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/de/product/gorille-imperial-6100-01</loc>
@@ -267,7 +325,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/product/gorille-imperial-6100-01"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/product/gorille-imperial-6100-01"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/product/gorille-imperial-6100-01"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/de/about</loc>
@@ -276,7 +334,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/about"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/about"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/about"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/de/realizations</loc>
@@ -285,7 +343,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/realizations"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/realizations"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/realizations"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/de/contact</loc>
@@ -294,7 +352,70 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/contact"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/contact"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/contact"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.monumental-decor.ch/de/blog</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.monumental-decor.ch/fr/blog"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.monumental-decor.ch/de/blog"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/blog"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/blog"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/blog"/>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.monumental-decor.ch/de/blog/choisir-statue-entree-villa</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.monumental-decor.ch/fr/blog/choisir-statue-entree-villa"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.monumental-decor.ch/de/blog/choisir-statue-entree-villa"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/blog/choisir-statue-entree-villa"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/blog/choisir-statue-entree-villa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/blog/choisir-statue-entree-villa"/>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.monumental-decor.ch/de/blog/resine-ou-beton</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.monumental-decor.ch/fr/blog/resine-ou-beton"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.monumental-decor.ch/de/blog/resine-ou-beton"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/blog/resine-ou-beton"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/blog/resine-ou-beton"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/blog/resine-ou-beton"/>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.monumental-decor.ch/de/blog/entretenir-piece-exterieure</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.monumental-decor.ch/fr/blog/entretenir-piece-exterieure"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.monumental-decor.ch/de/blog/entretenir-piece-exterieure"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/blog/entretenir-piece-exterieure"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/blog/entretenir-piece-exterieure"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/blog/entretenir-piece-exterieure"/>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.monumental-decor.ch/de/legal/mentions-legales</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.monumental-decor.ch/fr/legal/mentions-legales"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.monumental-decor.ch/de/legal/mentions-legales"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/legal/mentions-legales"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/legal/mentions-legales"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/legal/mentions-legales"/>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.monumental-decor.ch/de/legal/cgv</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.monumental-decor.ch/fr/legal/cgv"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.monumental-decor.ch/de/legal/cgv"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/legal/cgv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/legal/cgv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/legal/cgv"/>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.monumental-decor.ch/de/legal/confidentialite</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.monumental-decor.ch/fr/legal/confidentialite"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.monumental-decor.ch/de/legal/confidentialite"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/legal/confidentialite"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/legal/confidentialite"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/legal/confidentialite"/>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <!-- IT -->
   <url>
@@ -304,7 +425,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/it/shop</loc>
@@ -313,7 +434,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/shop"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/shop"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/shop"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/it/shop/animal</loc>
@@ -322,7 +443,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/shop/animal"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/shop/animal"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/shop/animal"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/it/shop/vaseResine</loc>
@@ -331,7 +452,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/shop/vaseResine"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/shop/vaseResine"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/shop/vaseResine"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/it/shop/vaseBeton</loc>
@@ -340,7 +461,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/shop/vaseBeton"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/shop/vaseBeton"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/shop/vaseBeton"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/it/shop/fontaine</loc>
@@ -349,7 +470,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/shop/fontaine"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/shop/fontaine"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/shop/fontaine"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/it/product/fontaine-dame-modele-a</loc>
@@ -358,7 +479,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/product/fontaine-dame-modele-a"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/product/fontaine-dame-modele-a"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/product/fontaine-dame-modele-a"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/it/product/vase-anges-floral-modele-a</loc>
@@ -367,7 +488,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/product/vase-anges-floral-modele-a"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/product/vase-anges-floral-modele-a"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/product/vase-anges-floral-modele-a"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/it/product/vase-medicis-6125-02</loc>
@@ -376,7 +497,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/product/vase-medicis-6125-02"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/product/vase-medicis-6125-02"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/product/vase-medicis-6125-02"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/it/product/chien-statue-6125-02</loc>
@@ -385,7 +506,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/product/chien-statue-6125-02"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/product/chien-statue-6125-02"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/product/chien-statue-6125-02"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/it/product/paon-monumental</loc>
@@ -394,7 +515,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/product/paon-monumental"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/product/paon-monumental"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/product/paon-monumental"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/it/product/lion-imperial-6200-01</loc>
@@ -403,7 +524,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/product/lion-imperial-6200-01"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/product/lion-imperial-6200-01"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/product/lion-imperial-6200-01"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/it/product/gorille-imperial-6100-01</loc>
@@ -412,7 +533,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/product/gorille-imperial-6100-01"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/product/gorille-imperial-6100-01"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/product/gorille-imperial-6100-01"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/it/about</loc>
@@ -421,7 +542,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/about"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/about"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/about"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/it/realizations</loc>
@@ -430,7 +551,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/realizations"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/realizations"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/realizations"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/it/contact</loc>
@@ -439,7 +560,70 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/contact"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/contact"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/contact"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.monumental-decor.ch/it/blog</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.monumental-decor.ch/fr/blog"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.monumental-decor.ch/de/blog"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/blog"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/blog"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/blog"/>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.monumental-decor.ch/it/blog/choisir-statue-entree-villa</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.monumental-decor.ch/fr/blog/choisir-statue-entree-villa"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.monumental-decor.ch/de/blog/choisir-statue-entree-villa"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/blog/choisir-statue-entree-villa"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/blog/choisir-statue-entree-villa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/blog/choisir-statue-entree-villa"/>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.monumental-decor.ch/it/blog/resine-ou-beton</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.monumental-decor.ch/fr/blog/resine-ou-beton"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.monumental-decor.ch/de/blog/resine-ou-beton"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/blog/resine-ou-beton"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/blog/resine-ou-beton"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/blog/resine-ou-beton"/>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.monumental-decor.ch/it/blog/entretenir-piece-exterieure</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.monumental-decor.ch/fr/blog/entretenir-piece-exterieure"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.monumental-decor.ch/de/blog/entretenir-piece-exterieure"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/blog/entretenir-piece-exterieure"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/blog/entretenir-piece-exterieure"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/blog/entretenir-piece-exterieure"/>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.monumental-decor.ch/it/legal/mentions-legales</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.monumental-decor.ch/fr/legal/mentions-legales"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.monumental-decor.ch/de/legal/mentions-legales"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/legal/mentions-legales"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/legal/mentions-legales"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/legal/mentions-legales"/>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.monumental-decor.ch/it/legal/cgv</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.monumental-decor.ch/fr/legal/cgv"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.monumental-decor.ch/de/legal/cgv"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/legal/cgv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/legal/cgv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/legal/cgv"/>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.monumental-decor.ch/it/legal/confidentialite</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.monumental-decor.ch/fr/legal/confidentialite"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.monumental-decor.ch/de/legal/confidentialite"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/legal/confidentialite"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/legal/confidentialite"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/legal/confidentialite"/>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <!-- EN -->
   <url>
@@ -449,7 +633,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/en/shop</loc>
@@ -458,7 +642,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/shop"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/shop"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/shop"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/en/shop/animal</loc>
@@ -467,7 +651,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/shop/animal"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/shop/animal"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/shop/animal"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/en/shop/vaseResine</loc>
@@ -476,7 +660,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/shop/vaseResine"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/shop/vaseResine"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/shop/vaseResine"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/en/shop/vaseBeton</loc>
@@ -485,7 +669,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/shop/vaseBeton"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/shop/vaseBeton"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/shop/vaseBeton"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/en/shop/fontaine</loc>
@@ -494,7 +678,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/shop/fontaine"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/shop/fontaine"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/shop/fontaine"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/en/product/fontaine-dame-modele-a</loc>
@@ -503,7 +687,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/product/fontaine-dame-modele-a"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/product/fontaine-dame-modele-a"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/product/fontaine-dame-modele-a"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/en/product/vase-anges-floral-modele-a</loc>
@@ -512,7 +696,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/product/vase-anges-floral-modele-a"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/product/vase-anges-floral-modele-a"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/product/vase-anges-floral-modele-a"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/en/product/vase-medicis-6125-02</loc>
@@ -521,7 +705,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/product/vase-medicis-6125-02"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/product/vase-medicis-6125-02"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/product/vase-medicis-6125-02"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/en/product/chien-statue-6125-02</loc>
@@ -530,7 +714,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/product/chien-statue-6125-02"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/product/chien-statue-6125-02"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/product/chien-statue-6125-02"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/en/product/paon-monumental</loc>
@@ -539,7 +723,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/product/paon-monumental"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/product/paon-monumental"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/product/paon-monumental"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/en/product/lion-imperial-6200-01</loc>
@@ -548,7 +732,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/product/lion-imperial-6200-01"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/product/lion-imperial-6200-01"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/product/lion-imperial-6200-01"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/en/product/gorille-imperial-6100-01</loc>
@@ -557,7 +741,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/product/gorille-imperial-6100-01"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/product/gorille-imperial-6100-01"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/product/gorille-imperial-6100-01"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/en/about</loc>
@@ -566,7 +750,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/about"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/about"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/about"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/en/realizations</loc>
@@ -575,7 +759,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/realizations"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/realizations"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/realizations"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/en/contact</loc>
@@ -584,19 +768,78 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/contact"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/contact"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/contact"/>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.monumental-decor.ch/en/blog</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.monumental-decor.ch/fr/blog"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.monumental-decor.ch/de/blog"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/blog"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/blog"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/blog"/>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.monumental-decor.ch/en/blog/choisir-statue-entree-villa</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.monumental-decor.ch/fr/blog/choisir-statue-entree-villa"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.monumental-decor.ch/de/blog/choisir-statue-entree-villa"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/blog/choisir-statue-entree-villa"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/blog/choisir-statue-entree-villa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/blog/choisir-statue-entree-villa"/>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.monumental-decor.ch/en/blog/resine-ou-beton</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.monumental-decor.ch/fr/blog/resine-ou-beton"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.monumental-decor.ch/de/blog/resine-ou-beton"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/blog/resine-ou-beton"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/blog/resine-ou-beton"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/blog/resine-ou-beton"/>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.monumental-decor.ch/en/blog/entretenir-piece-exterieure</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.monumental-decor.ch/fr/blog/entretenir-piece-exterieure"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.monumental-decor.ch/de/blog/entretenir-piece-exterieure"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/blog/entretenir-piece-exterieure"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/blog/entretenir-piece-exterieure"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/blog/entretenir-piece-exterieure"/>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.monumental-decor.ch/en/legal/mentions-legales</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.monumental-decor.ch/fr/legal/mentions-legales"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.monumental-decor.ch/de/legal/mentions-legales"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/legal/mentions-legales"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/legal/mentions-legales"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/legal/mentions-legales"/>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.monumental-decor.ch/en/legal/cgv</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.monumental-decor.ch/fr/legal/cgv"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.monumental-decor.ch/de/legal/cgv"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/legal/cgv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/legal/cgv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/legal/cgv"/>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.monumental-decor.ch/en/legal/confidentialite</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.monumental-decor.ch/fr/legal/confidentialite"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.monumental-decor.ch/de/legal/confidentialite"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.monumental-decor.ch/it/legal/confidentialite"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.monumental-decor.ch/en/legal/confidentialite"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.monumental-decor.ch/fr/legal/confidentialite"/>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <!-- Pages disponibles en francais uniquement -->
   <url>
     <loc>https://www.monumental-decor.ch/fr/b2b</loc>
-    <lastmod>2026-08-31</lastmod>
-  </url>
-  <url>
-    <loc>https://www.monumental-decor.ch/fr/blog</loc>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.monumental-decor.ch/fr/savoir-faire</loc>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
   </url>
 </urlset>
