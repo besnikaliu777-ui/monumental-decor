@@ -8,17 +8,29 @@ export const metadata: Metadata = {
   description: 'Decor and design pieces for monumental interiors.',
 };
 
+// LocalBusiness rather than Organization: the workshop is a real place a
+// customer can visit, and the postal address is what lets Google tie the site
+// to the business listing and to searches made nearby.
 const organizationJsonLd = {
   '@context': 'https://schema.org',
-  '@type': 'Organization',
+  '@type': 'LocalBusiness',
   name: 'Monumental Decor',
   url: 'https://www.monumental-decor.ch',
   logo: 'https://www.monumental-decor.ch/images/hero.png',
+  image: 'https://www.monumental-decor.ch/images/hero.png',
   email: 'info@monumental-decor.ch',
   telephone: '+41787763292',
+  priceRange: 'CHF',
   address: {
     '@type': 'PostalAddress',
+    postalCode: '1418',
+    addressLocality: 'Vuarrens',
+    addressRegion: 'VD',
     addressCountry: 'CH',
+  },
+  areaServed: {
+    '@type': 'Country',
+    name: 'Suisse',
   },
 };
 
