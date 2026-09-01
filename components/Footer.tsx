@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { getDictionary, Locale } from '../lib/translations';
+import { LEGAL_NAV } from '../lib/legal';
 
 interface Props {
   locale: Locale;
@@ -47,6 +48,18 @@ export default async function Footer({ locale }: Props) {
             </button>
           </form>
         </div>
+      </div>
+
+      <div className="mx-auto mt-10 max-w-7xl border-t border-[#d8c6aa] px-4 pt-6 sm:px-6 lg:px-8">
+        <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#5f5448]">
+          {LEGAL_NAV[locale].map((item) => (
+            <li key={item.slug}>
+              <Link href={`/${locale}/legal/${item.slug}`} className="hover:text-[#17130f]">
+                {item.label}
+              </Link>
+            </li>
+          ))}
+        </ul>
       </div>
     </footer>
   );
