@@ -1,103 +1,83 @@
 import type { Metadata } from 'next';
 import { getDictionary, Locale } from '../../../lib/translations';
 import { pageMetadata } from '../../../lib/seo';
+import ContactForm from './ContactForm';
 
 interface Props {
   params: { lang: Locale };
 }
 
-// Contact page with form and contact information. The form is not hooked
-// to a backend; in production you would handle submissions via an API route.
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return pageMetadata('contact', params.lang, 'contact');
 }
 
+const DETAIL_LABEL =
+  'text-xs font-semibold uppercase tracking-[0.18em] text-[#8a642f]';
+
+const MAP_SRC =
+  'https://maps.google.com/maps?q=1418%20Vuarrens%2C%20Suisse&z=13&output=embed';
+
 export default async function ContactPage({ params }: Props) {
   const locale = params.lang;
   const dict = getDictionary(locale);
+
   return (
-    <main className="py-12">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-12">
-        <div>
-          <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
+    <main className="bg-[#f6f0e6] py-16 text-[#17130f]">
+      <div className="mx-auto grid max-w-6xl grid-cols-1 gap-16 px-4 sm:px-6 lg:grid-cols-[1.15fr_0.85fr] lg:gap-20 lg:px-8">
+
+        <section>
+          <h1 className="text-4xl font-semibold leading-tight md:text-5xl">
             {dict.contact.title}
           </h1>
-          <p className="text-gray-300 mb-6">{dict.contact.description}</p>
-          <form className="space-y-4">
-            <div>
-              <label htmlFor="name" className="block text-sm text-gray-300 mb-1">
-                {dict.contact.name}
-              </label>
-              <input
-                id="name"
-                type="text"
-                className="w-full px-3 py-2 rounded bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-yellow-500"
-              />
-            </div>
-            <div>
-              <label htmlFor="email" className="block text-sm text-gray-300 mb-1">
-                {dict.contact.email}
-              </label>
-              <input
-                id="email"
-                type="email"
-                className="w-full px-3 py-2 rounded bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-yellow-500"
-              />
-            </div>
-            <div>
-              <label htmlFor="phone" className="block text-sm text-gray-300 mb-1">
-                {dict.contact.phone}
-              </label>
-              <input
-                id="phone"
-                type="tel"
-                className="w-full px-3 py-2 rounded bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-yellow-500"
-              />
-            </div>
-            <div>
-              <label htmlFor="message" className="block text-sm text-gray-300 mb-1">
-                {dict.contact.message}
-              </label>
-              <textarea
-                id="message"
-                rows={4}
-                className="w-full px-3 py-2 rounded bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-yellow-500"
-              ></textarea>
-            </div>
-            <button
-              type="submit"
-              className="bg-yellow-500 text-black px-6 py-3 rounded font-medium hover:bg-yellow-400 transition-colors"
+          <p className="mt-5 max-w-xl text-lg text-[#5f5448]">
+            {dict.contact.description}
+          </p>
+          <ContactForm locale={locale} dict={dict} />
+        </section>
+
+        <aside className="flex flex-col gap-8">
+          <div className="divide-y divide-[#d8c6aa] rounded-sm border border-[#d8c6aa] bg-[#fbf7ef]">
+            <a
+              href="https://wa.me/41787763292"
+              target="_blank"
+              rel="noopener"
+              className="block px-6 py-5 transition-colors hover:bg-[#efe4d3]"
             >
-              {dict.contact.submit}
-            </button>
-          </form>
-        </div>
-        <div className="space-y-4">
-          <div>
-            <h2 className="text-xl font-semibold text-yellow-500">WhatsApp</h2>
-            <p className="text-gray-300">+41 78 776 32 92</p>
+              <p className={DETAIL_LABEL}>WhatsApp</p>
+              <p className="mt-2 text-lg text-[#17130f]">+41 78 776 32 92</p>
+            </a>
+
+            <a
+              href="mailto:info@monumental-decor.ch"
+              className="block px-6 py-5 transition-colors hover:bg-[#efe4d3]"
+            >
+              <p className={DETAIL_LABEL}>Email</p>
+              <p className="mt-2 break-all text-lg text-[#17130f]">info@monumental-decor.ch</p>
+            </a>
+
+            <div className="px-6 py-5">
+              <p className={DETAIL_LABEL}>Adresse</p>
+              <p className="mt-2 text-lg text-[#17130f]">
+                1418 Vuarrens
+                <span className="block text-base text-[#5f5448]">Canton de Vaud, Suisse</span>
+              </p>
+            </div>
           </div>
-          <div>
-            <h2 className="text-xl font-semibold text-yellow-500">Email</h2>
-            <p className="text-gray-300">info@monumental-decor.ch</p>
-          </div>
-          <div>
-            <h2 className="text-xl font-semibold text-yellow-500">Adresse</h2>
-            <p className="text-gray-300">Vuarrens, 1418</p>
-          </div>
-          <div className="h-64 w-full">
+
+          <div className="overflow-hidden rounded-sm border border-[#d8c6aa]">
             <iframe
-              title="Google Map"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2760.9820401094!2d8.541694215745464!3d47.37688607917379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47900a09162b34ff%3A0x54cee261ce6a6eb8!2sZ%C3%BCrich%20HB!5e0!3m2!1sfr!2sch!4v1689832577879!5m2!1sfr!2sch"
+              title="Monumental Decor — 1418 Vuarrens"
+              src={MAP_SRC}
               width="100%"
-              height="100%"
-              style={{ border: 0 }}
+              height="320"
+              style={{ border: 0, display: 'block' }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+            />
           </div>
-        </div>
+        </aside>
+
       </div>
     </main>
   );
