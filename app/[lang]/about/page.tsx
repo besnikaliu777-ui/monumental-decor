@@ -18,11 +18,11 @@ export default async function AboutPage({ params }: Props) {
   return (
     <main className="py-12">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-3xl md:text-4xl font-bold text-white mb-6">
+        <h1 className="text-3xl md:text-4xl font-bold text-[#17130f] mb-6">
           {dict.about.title}
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="space-y-4 text-gray-300">
+          <div className="space-y-4 text-[#5f5448]">
             {dict.about.paragraphs.map((p, idx) => (
               <p key={idx}>{p}</p>
             ))}
