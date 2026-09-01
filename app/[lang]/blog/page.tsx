@@ -1,45 +1,46 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
+import Link from 'next/link';
 import { Locale } from '../../../lib/translations';
-import { frenchOnlyMetadata } from '../../../lib/seo';
+import { pageMetadata } from '../../../lib/seo';
+import { articles, BLOG_INTRO } from '../../../lib/articles';
 
 interface Props {
   params: { lang: Locale };
 }
 
-const posts = [
-  {
-    title: 'Comment choisir une statue pour une entrée de villa',
-    text: 'Hauteur, recul, matière et éclairage : les critères qui donnent une vraie présence sans surcharger l’espace.',
-  },
-  {
-    title: 'Résine ou béton : quelle matière choisir ?',
-    text: 'La résine permet des détails fins et un poids maîtrisé. Le béton apporte une présence minérale et stable.',
-  },
-  {
-    title: 'Entretenir une pièce décorative extérieure',
-    text: 'Un entretien simple et régulier prolonge l’éclat des finitions et protège les détails sculptés.',
-  },
-];
-
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  return frenchOnlyMetadata('blog', params.lang);
+  return pageMetadata('blog', params.lang, 'blog');
 }
 
 export default async function BlogPage({ params }: Props) {
-  void params;
+  const locale = params.lang;
+  const intro = BLOG_INTRO[locale];
 
   return (
-    <main className="py-12">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-3xl md:text-5xl font-bold text-[#17130f]">Blog conseil</h1>
-        <p className="mt-5 text-[#5f5448]">
-          Conseils SEO et contenus utiles pour aider les clients à choisir une pièce adaptée.
-        </p>
-        <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
-          {posts.map((post) => (
-            <article key={post.title} className="rounded bg-[#fbf7ef] border border-[#d8c6aa] p-6">
-              <h2 className="text-xl font-semibold text-[#8a642f]">{post.title}</h2>
-              <p className="mt-3 text-[#5f5448]">{post.text}</p>
+    <main className="bg-[#f6f0e6] py-16 text-[#17130f]">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+        <h1 className="text-4xl font-semibold leading-tight md:text-5xl">{intro.title}</h1>
+        <p className="mt-5 max-w-2xl text-lg text-[#5f5448]">{intro.lead}</p>
+
+        <div className="mt-14 grid grid-cols-1 gap-10 md:grid-cols-3">
+          {articles.map((article) => (
+            <article key={article.slug} className="flex flex-col">
+              <Link href={`/${locale}/blog/${article.slug}`} className="group flex flex-col gap-4">
+                <div className="relative aspect-[4/3] overflow-hidden bg-[#e4d6c2]">
+                  <Image
+                    src={article.image}
+                    alt={article.title[locale]}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                    className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                  />
+                </div>
+                <h2 className="text-xl font-semibold leading-snug group-hover:text-[#8a642f]">
+                  {article.title[locale]}
+                </h2>
+              </Link>
+              <p className="mt-3 text-[#5f5448]">{article.excerpt[locale]}</p>
             </article>
           ))}
         </div>
