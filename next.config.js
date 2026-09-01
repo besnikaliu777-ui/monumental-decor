@@ -12,6 +12,13 @@ const nextConfig = {
   images: {
     formats: ['image/avif', 'image/webp'],
   },
+
+  // The root layout now lives under app/[lang] so that <html lang> matches the
+  // language being served. That leaves no page at "/", so the redirect to the
+  // default language is handled here rather than by rendering a page.
+  async redirects() {
+    return [{ source: '/', destination: '/fr', permanent: false }];
+  },
 };
 
 module.exports = nextConfig;
