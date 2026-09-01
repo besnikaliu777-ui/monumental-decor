@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { getDictionary, Locale } from '../lib/translations';
 import { LEGAL_NAV } from '../lib/legal';
+import NewsletterForm from './NewsletterForm';
 
 interface Props {
   locale: Locale;
@@ -31,22 +32,18 @@ export default async function Footer({ locale }: Props) {
         </div>
         <div>
           <h4 className="mb-3 font-semibold text-[#8a642f]">{dict.contact.title}</h4>
-          <p className="mb-2 text-sm text-[#5f5448]">+41 78 776 32 92</p>
-          <p className="mb-2 text-sm text-[#5f5448]">info@monumental-decor.ch</p>
+          <p className="mb-2 text-sm">
+            <a href="https://wa.me/41787763292" className="text-[#5f5448] hover:text-[#17130f]">
+              +41 78 776 32 92
+            </a>
+          </p>
+          <p className="mb-2 text-sm">
+            <a href="mailto:info@monumental-decor.ch" className="text-[#5f5448] hover:text-[#17130f]">
+              info@monumental-decor.ch
+            </a>
+          </p>
           <p className="mb-4 text-sm text-[#5f5448]">1418 Vuarrens, Suisse</p>
-          <form className="flex flex-col space-y-2">
-            <input
-              type="email"
-              placeholder="Email"
-              className="rounded-sm border border-[#d8c6aa] bg-[#f6f0e6] px-3 py-2 text-[#17130f] placeholder-[#8f8170] focus:outline-none focus:ring-2 focus:ring-[#8a642f]"
-            />
-            <button
-              type="submit"
-              className="rounded-sm bg-[#17130f] px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-[#4a3621]"
-            >
-              S’inscrire
-            </button>
-          </form>
+          <NewsletterForm locale={locale} />
         </div>
       </div>
 
