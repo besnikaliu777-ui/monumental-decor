@@ -32,7 +32,7 @@ export function buildMetadata({
   path,
   title,
   description,
-  image = '/images/hero.png',
+  image = '/og-image.png',
   noindex = false,
   frenchOnly = false,
 }: BuildArgs): Metadata {
