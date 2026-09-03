@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { getDictionary, Locale } from '../lib/translations';
 import { LEGAL_NAV } from '../lib/legal';
@@ -14,7 +15,15 @@ export default async function Footer({ locale }: Props) {
     <footer className="mt-16 border-t border-[#d8c6aa] bg-[#efe4d3] py-12 text-[#17130f]">
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-8 px-4 sm:px-6 md:grid-cols-3 lg:px-8">
         <div>
-          <h3 className="mb-3 text-lg font-semibold">Monumental Decor</h3>
+          <h3 className="mb-4">
+            <Image
+              src="/logo.png"
+              alt="Monumental Decor"
+              width={900}
+              height={705}
+              className="h-auto w-40"
+            />
+          </h3>
           <p className="mb-4 text-sm text-[#5f5448]">Pièces artisanales pour espaces d’exception.</p>
           <p className="text-sm text-[#5f5448]">
             © {new Date().getFullYear()} Monumental Decor. All rights reserved.

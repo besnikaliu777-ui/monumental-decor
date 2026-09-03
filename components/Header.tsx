@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { getDictionary, Locale } from '../lib/translations';
 import CartIcon from './CartIcon';
@@ -17,8 +18,19 @@ export default async function Header({ locale }: Props) {
     <header className="sticky top-0 z-50 border-b border-[#d8c6aa] bg-[#f6f0e6]/90 text-[#17130f] backdrop-blur">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
         <div className="flex items-center space-x-4">
-          <Link href={`/${locale}`} className="text-xl font-bold text-[#17130f]">
-            Monumental Decor
+          {/* The monogram sits beside the name rather than replacing it: the
+              stacked logo would be unreadable at header height, and keeping
+              real text keeps the site name selectable and announced once. */}
+          <Link href={`/${locale}`} className="flex items-center gap-2.5 text-[#17130f]">
+            <Image
+              src="/logo-mark-wide.png"
+              alt=""
+              width={376}
+              height={288}
+              priority
+              className="h-10 w-auto shrink-0"
+            />
+            <span className="text-xl font-bold">Monumental Decor</span>
           </Link>
           <nav className="hidden md:flex space-x-6">
             <Link href={`/${locale}`} className="hover:text-[#8a642f]">
